@@ -1,0 +1,35 @@
+
+= avaticon
+
+A library for getting web service user icon.
+
+== Description
+
+
+== Installation
+
+=== Archive Installation
+
+	rake install
+
+=== Gem Installation
+
+	gem sources -a http://gems.github.com (you only have to do this once)
+	sudo gem install swdyh-avaticon
+
+== Features/Problems
+
+
+== Synopsis
+
+	# get icon
+	icon_url = Avaticon.get_icon 'twitter', 'swdyh'
+
+	# search by url
+	icon_url = Avaticon.search_by_url 'http://twitter.com/swdyh'
+
+== Copyright
+
+Author::    swdyh http://mailhide.recaptcha.net/d?k=01AhB7crgrlHptVaYRD0oPwA==&c=L_iqOZrGmo6hcGpPTFg1QYnjr-WpAStyQ4Y8ShfgOHs=
+Copyright:: Copyright (c) 2008 swdyh
+License::   The MIT License

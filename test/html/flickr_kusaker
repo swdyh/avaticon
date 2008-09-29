@@ -1,0 +1,829 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+	<title>Flickr: kusaker</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="keywords" content="photography, digital photography, cameraphones, camera, hobby photography, photo, digital camera, compactflash, smartmedia, cameras, canon, nikon, olympus, fujifilm, video">	
+	<meta name="description" content="Flickr is almost certainly the best online photo management and sharing application in the world. Show off your favorite photos and videos to the world, securely and privately show content to your friends and family, or blog the photos and videos you take with a cameraphone.">
+	<meta http-equiv="imagetoolbar" content="no">
+	<meta name="viewport" content="width=820" />
+	<link href="http://l.yimg.com/g/css/c_flickr.css.v59787.14" rel="stylesheet" type="text/css">
+	<link rel="shortcut icon" type="image/ico" href="/favicon.ico">
+<link href="http://l.yimg.com/g/css/c_profile.css.v35667.14" rel="stylesheet" type="text/css" />
+<link href="http://l.yimg.com/g/css/c_contacts.css.v45805.14" rel="stylesheet" type="text/css" />
+<link href="http://l.yimg.com/g/css/c_search.css.v57483.14" rel="stylesheet" type="text/css" />
+
+<!--[if LT IE 7]>
+<style type="text/css">
+.trans_png {
+	behavior: url('/javascript/pngbehavior2.htc');
+	border:0;
+}
+</style>
+<![endif]-->
+
+		<link href="http://l.yimg.com/g/css/intl/c_en-us.css.v33225.14" rel="stylesheet" type="text/css">
+
+<script type="text/javascript">
+var global_magisterLudi = '48c6bbc703d6a02e51ff6591490f941a',
+global_auth_hash = '89d44653b4f795eb9de5f5e64856b86e',
+global_auth_token = '',
+global_flickr_secret = 'b06793b1c5ccb653',
+global_slideShowVersion = '6708',
+global_slideShowCodeVersion = '34351',
+global_slideShowVersionV2 = '33427',
+global_slideShowCodeVersionV2 = '49745',
+global_slideShowTextVersion = '58886',
+global_slideShowVersionV3 = '59913',
+global_nsid = '',
+global_ispro = 0,
+global_dbid = '',
+global_name ='',
+global_expire ='',
+global_icon_url ='http://l.yimg.com/g/images/buddyicon.jpg#',
+global_tag_limit = '75',
+global_collection_depth_limit = 5,
+global_stewartVersion = '60247',
+global_contact_limit = '3000',
+global_eighteen = 1,
+global_group_limit = 10,
+global_photos_ids_limit = 20,
+disable_stewart = 0;
+disable_geo = 0;
+var global_rper = 0;
+
+var global_intl_lang = 'en-us';
+
+var _photo_root = 'http://farm.static.flickr.com/';
+var _site_root = 'http://www.flickr.com';
+var _images_root = 'http://l.yimg.com/g/images';
+var _intl_images_root = 'http://l.yimg.com/g/images/en-us';
+
+
+var do_bbml = 0;
+
+</script>
+
+
+<script type="text/javascript" src="http://l.yimg.com/g/javascript/global.js.v58474.14"></script>
+
+<script type="text/javascript">
+
+</script>
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="http://l.yimg.com/g/javascript/fold_main.js.v48851.48851.48851.48851.48851.38771.48851.48851.60501.38771.38771.49635.38771.38771.38771.39083.55689.53587.38771.57388.38771.60180.14"></script>
+<script type="text/javascript" src="http://l.yimg.com/g/javascript/video.js.v55944.14"></script>
+<script type="text/javascript" src="http://l.yimg.com/g/javascript/swfobject.js.v55944.14"></script>
+
+
+<script type="text/javascript" src="http://l.yimg.com/g/javascript/slideshow3.js.v59253.14"></script>
+
+	<link href="http://l.yimg.com/g/css/c_sharing.css.v57426.14" rel="stylesheet" type="text/css">
+
+<script type="text/javascript" src="http://l.yimg.com/g/javascript/s_output_en-us.js.9cd45e469cef593118863d07b30f5c95"></script>
+
+<script type="text/javascript">
+
+YAHOO.util.Event.addListener(window, 'load', F._window_onload);
+YAHOO.util.Event.addListener(window, 'resize', F._window_onresize);
+YAHOO.util.Event.addListener(window, 'blur', F._window_onblur);
+YAHOO.util.Event.addListener(window, 'focus', F._window_onfocus);
+YAHOO.util.Event.addListener(window, 'unload', F._window_onunload);
+
+</script>
+
+
+
+<script type="text/javascript">
+var global_joinDate = F.convert_unix_time_stamp('');
+var global_time_stamp = '080926164740';
+
+
+fixMaxWidth_getWidth = (navigator.userAgent.match(/MSIE 6/i)?function(el) {
+  return el.currentStyle['max-width'];
+}:function(el){
+  return el.currentStyle['maxWidth'];
+});
+
+fixMaxWidth = function(el) {
+  try {
+    el.runtimeStyle.behavior = 'none';
+    var mw = fixMaxWidth_getWidth(el);
+    var nmw = parseInt(mw,10) || 10000;
+    var cW = parseInt(el.offsetWidth);
+    var cH = parseInt(el.offsetHeight);
+    var ratio = (cH/cW);
+    if (el.offsetWidth>nmw) {
+      el.style.width = (nmw+'px');
+      if (!isNaN(cH) && cH) {
+        el.style.height = (Math.ceil(nmw*ratio)+'px');
+      }
+    }
+  } catch(e) {
+    // oh well
+  }
+}
+
+
+
+// Dean Edwards/Matthias Miller/John Resig
+
+/* for Mozilla/Opera9 */
+if (document.addEventListener) {
+    document.addEventListener("DOMContentLoaded", F._window_onload_dom, false);
+}
+
+/* for Internet Explorer */
+/*@cc_on @*/
+/*@if (@_win32)
+    document.write("<script id=__ie_onload defer src=javascript:void(0)><\/script>");
+    var script = document.getElementById("__ie_onload");
+    script.onreadystatechange = function() {
+        if (this.readyState == "complete") {
+            F._window_onload_dom(); // call the onload handler
+        }
+    };
+/*@end @*/
+
+/* for Safari */
+if (/WebKit/i.test(navigator.userAgent)) { // sniff
+    F.onload_dom_timer = setInterval(function() {
+        if (/loaded|complete/.test(document.readyState)) {
+            F._window_onload_dom(); // call the onload handler
+        }
+    }, 10);
+}
+
+
+
+</script>
+
+<!--[if IE]>
+<style type="text/css">
+
+img.notsowide {
+ behavior:expression(fixMaxWidth(this));
+}
+
+</style>
+<![endif]-->
+
+
+</head>
+
+<body>
+
+<div id="beacon"><img src="http://geo.yahoo.com/f?s=792600091&t=d8c6117929c5cfcb968455ebbc3262d5&fl_ev=0&lang=en&intl=us" width="0" height="0" alt="" /></div>
+
+<a name="top"></a>
+
+
+
+
+
+
+
+
+<div class="TopBar" id="TopBar">
+	<table cellspacing="0" class="Header" border="0">
+		<tr>
+			<td class="FlickrLogo">
+				<a href="/"><img src="http://l.yimg.com/g/images/flickr_logo_gamma.gif.v59899.14" id="FlickrLogo" width="98" height="26" alt="Flickr logo. If you click it, you'll go home" />
+				</a>
+					</td>
+			<td class="Status">
+			        
+                                
+		                        
+				You aren't signed in
+				&nbsp;&nbsp;&nbsp;
+				<a href="/signin/">Sign In</a>
+				&nbsp;&nbsp;
+				<a href="/help/">Help</a> 							
+				</td>
+		</tr>
+	</table>
+	<table cellspacing="0" class="NavBar" border="0">
+		<tr>
+			<td class="Primary">
+		
+<div id="candy_nav_button_bar" class="candy_button_bar">
+	<ul class="site_nav_menu_buttons">
+	        
+		<li class="no_menu_li"><span><a href="/">Home</a></span></li>
+				
+		
+		<li class="no_menu_li"><span><a href="/tour/" alt="Take the Flickr tour">The Tour</a></span></li>
+		
+		<li class="no_menu_li"><span><a href="/signup/" alt="Sign Up for a Free Account">Sign Up</a></span></li>
+
+
+
+		<li class="menu_li" id="candy_nav_button_explore"><span><a href="/explore/" alt="Explore Flickr">Explore</a> <img src="http://l.yimg.com/g/images/site_nav_caret_split_default.png" class="nav_button_caret" width="18" height="15" alt="More options"></span>
+		<div class="candy_menu" id="candy_nav_menu_explore">
+			<a href="/explore/">Explore Page</a>
+			<a href="/explore/interesting/7days/">Last 7 Days Interesting</a>
+			<a href="/photos/tags/">Popular Tags</a>
+			<a href="/explore/interesting/2008/09/">Calendar</a>
+			<a href="/photos/">Most Recent Uploads</a>
+			<a href="/explore/video/">Video on Flickr</a>
+			<a href="/analog/">Explore Analog</a>
+			<!--<a href="/explore/interesting/2007/09/">A Year Ago Today</a>-->
+			
+			<a title="Photos and videos on a map" href="/map/" class="menu_item_line_above">World Map</a>			<a href="/places/">Places</a>			
+			<a href="/commons/" class="menu_item_line_above">The Commons</a>
+			<a href="/creativecommons/">Creative Commons</a>
+			
+			<a href="http://blog.flickr.com/" class="menu_item_line_above">FlickrBlog</a>
+			<a href="http://code.flickr.com/">code.flickr</a>
+			<a href="/services/">Flickr Services</a>
+			
+			<a href="/do/more/" class="menu_item_line_above">Do More, Order Prints</a>
+			<a href="/cameras/">Camera Finder</a>		</div>
+		</li>
+
+	</ul>
+</div>
+<script type="text/javascript">F.decorate(_ge('candy_nav_button_bar'), F._nav_button_bar).bar_go_go_go();</script>	
+
+
+	
+			</td>
+
+
+
+
+
+<td id="search_header_form_td">
+	<form action="/search/" method="get" onsubmit="_do_header_search('', 'tags', '/search/', '', '');return false;" id="headersearchform">
+		<input name="q" id="header_search_q" type="text" class="Box" value="">
+		<input name="w" type="hidden" value="">
+		<input name="m" type="hidden" value="tags">
+		<input name="s" type="hidden" value="">
+		<input name="mt" type="hidden" value="">
+		<span id="headersearchbutton1"><input value="Search" type="image" src="http://l.yimg.com/g/images/header_search_button.png" /></span>
+	</form>
+</td>
+<td id="search_header_button_td" width="82">
+
+	<div id="candy_search_button_bar" class="candy_button_bar" style="">
+		<ul class="site_nav_menu_buttons">
+		<li class="menu_li" id="candy_nav_button_search"><span><a href="/search/" onclick="_do_header_search('', 'tags', '/search/', '', '');return false;">Search</a> <img src="http://l.yimg.com/g/images/site_nav_caret_split_default.png" class="nav_button_caret" width="18" height="15" alt="More options"></span>
+		<div class="candy_menu" id="candy_nav_menu_search">
+			<a title="Everyone's Uploads" href="/search/" onclick="_do_header_search('all', null, null, null, ''); return false;"><b>&#183;</b> Everyone's Uploads</a>
+			<a title="Groups" href="/search/groups/" onclick="_do_header_search('', '', '/search/groups/'); return false;">Groups</a>
+			<a title="Flickr Members" href="/search/people/" onclick="_do_header_search('', 'names', '/search/people/'); return false;">Flickr Members</a>
+			<a title="For a Location" href="/map/" onclick="_do_header_search('location', '', '/map/'); return false;">For a Location</a>			
+		</div>
+		</li>
+		</ul>
+	</div>
+	
+	<script type="text/javascript">F.decorate(_ge('candy_nav_button_search'), F._nav_button).button_go_go_go();</script>
+	
+	<script type="text/javascript">
+	var b1 = _ge('headersearchbutton1');
+	b1.parentNode.removeChild(b1);
+	
+	_ge('search_header_form_td').style.paddingBottom = '2px';
+	
+	_ge('candy_search_button_bar').style.display = 'block';
+	
+	
+	var f = _ge('headersearchform');
+	
+	if (f.q.value == '') f.q.style.color = '#999';
+	
+	f.q.onfocus = function() {
+		if (this.value == '') this.value = '';
+		this.style.color = '#222';
+		if (window.ymap) ymap._disableKeys = true;
+	}
+	
+	f.q.onblur = function() {
+		if (this.value != '') return;
+		this.style.color = '#999';
+		this.value = '';
+		if (window.ymap) ymap._disableKeys = false;
+	}
+	
+	var _do_header_search = function(w, m, action, s, mt) {
+		var f = _ge('headersearchform');
+		if (f.q.value == '') f.q.value = '';
+		f.q.value = f.q.value.trim();
+		
+		
+		// do location search if the location search window is open, or if w == 'location'
+		if (w == 'location' || (_ge('loc_search_div') && _ge('loc_search_div').style.display != 'none')) {
+			if (!_ge('loc_search_div')) {
+				// create the location search crap!
+				var div 	= document.createElement('div');
+				div.id = 'loc_search_div';
+				document.body.appendChild(div);
+				
+				var page_type = 'site';
+				F.decorate(div, F._loc_search_div).div_go_go_go(page_type);
+			}
+			try {_ge('loc_search_div').div_do_loc_search()} catch(err) {writeDebug(err)};return false;
+			return;
+		}
+		
+		
+		
+		
+		f.w.value = w;
+		f.m.value = (m) ? m : '';
+		f.s.value = (s) ? s : '';
+		f.mt.value = (mt) ? mt : '';
+		f.action = (action) ? action : '/search/';
+		
+		if (f.m.value == 'tags' && f.q.value && f.q.value.indexOf(' ') == -1) {
+			var alias = '';
+			alias = (alias) ? alias : f.w.value;
+			var turl = '/photos/';
+			if (f.w.value == 'all') {
+				turl+= 'tags/'+encodeURIComponent(f.q.value); 
+			} else {
+				turl+= alias+'/tags/'+encodeURIComponent(f.q.value); 
+			}
+			document.location = turl;
+			return;
+		}
+		
+		var qsA = ['q='+encodeURIComponent(f.q.value)];
+		if (f.w.value) qsA.push('w='+encodeURIComponent(f.w.value));
+		if (f.m.value) qsA.push('m='+encodeURIComponent(f.m.value));
+		if (f.s.value) qsA.push('s='+encodeURIComponent(f.s.value));
+		if (f.mt.value) qsA.push('mt='+encodeURIComponent(f.mt.value));
+
+		var surl = f.action+'?'+qsA.join('&');
+		document.location = surl;
+	}
+	
+
+	</script>	
+
+</td>	
+		</tr>		
+	</table>
+</div>
+
+<div id="Main" >
+
+<div class="vcard">
+
+
+
+<table width="800" cellspacing="0" id="SubNav">
+	<tr>
+		<td class="Buddy">
+			<a href="/photos/kusaker/"><img src="http://farm1.static.flickr.com/128/buddyicons/39255132@N00.jpg?1169585056#39255132@N00" alt="to kusaker's photostream page" width="48" height="48" class="logo" /></a>		
+		</td>
+		<td class="Section">
+			<h1>
+				About <span class="nickname">kusaker</span>
+				<span class="RealName">/ <span class="fn n"><span class="given-name">kusaker</span></span></span>							</h1>
+			<p class="Links">
+				<a href="/photos/kusaker/" rel="me">&larr; Photostream</a> 
+				
+				
+			</p>
+		</td>	
+	
+	</tr>
+</table>
+
+
+
+	
+	
+	<table id="ProfileInfo" cellspacing="0" width="100%">
+		<tr valign="top">			
+			<td id="Left">
+
+<!-- ############################### -->
+
+				<div class="About">
+					<p class="note"><img class="notsowide" src="http://gyazo.com/2d43ccb535344e4e9672ad415afdb446.png" /><br />
+<br />
+<strong>Activity: </strong><br />
+<a href="http://tako3.com/http://flickr.com/photos/kusaker/">http://tako3.com/http://flickr.com/photos/kusaker/</a><br />
+<br />
+<strong>Hardware: </strong><br />
+<a href="http://www.flickr.com/cameras/canon/powershot_sd550/">IXY Digital 700</a> Canon</p>				
+					<p>
+					    I'm <strong>Male</strong>.
+  	
+
+					</p>
+					<p>
+						<span class="adr"><span class="locality">Kodaira / Yokohama</span>, <span class="country-name">Japan</span></span>
+					</p>
+				</div>
+
+<!-- ############################### -->
+
+				
+				<h3>
+				kusaker's contacts
+								(<a href="/people/kusaker/contacts/" rel="me">80</a>)
+				</h3>
+				
+
+				<div class="RecentContacts">
+	<p>
+		<a href="/photos/umelabo/" rel="contact">
+			<img src="http://farm4.static.flickr.com/3208/buddyicons/7754708@N08.jpg?1215610488#7754708@N08" alt="umelabo" width="48" height="48" /><br />
+			umelabo</a>
+	</p>	<p>
+		<a href="/photos/30348100@N08/" rel="contact">
+			<img src="http://farm4.static.flickr.com/3236/buddyicons/30348100@N08.jpg?1220760343#30348100@N08" alt="fujishirolie" width="48" height="48" /><br />
+			fujishirolie</a>
+	</p>	<p>
+		<a href="/photos/25386005@N02/" rel="contact">
+			<img src="http://l.yimg.com/g/images/buddyicon.jpg#25386005@N02" alt="nanigashi" width="48" height="48" /><br />
+			nanigashi</a>
+	</p>	<p>
+		<a href="/photos/27211277@N04/" rel="contact">
+			<img src="http://farm4.static.flickr.com/3164/buddyicons/27211277@N04.jpg?1212232596#27211277@N04" alt="sioameumai" width="48" height="48" /><br />
+			sioameumai</a>
+	</p>	<p>
+		<a href="/photos/hrykm169/" rel="contact">
+			<img src="http://farm3.static.flickr.com/2336/buddyicons/90939917@N00.jpg?1192787253#90939917@N00" alt="怪獣ヒロン" width="48" height="48" /><br />
+			怪獣ヒロン</a>
+	</p>	<p>
+		<a href="/photos/kagawa/" rel="contact">
+			<img src="http://farm1.static.flickr.com/34/buddyicons/19717110@N00.jpg?1206735041#19717110@N00" alt="kagawa3" width="48" height="48" /><br />
+			kagawa3</a>
+	</p>	<p>
+		<a href="/photos/8331703@N04/" rel="contact">
+			<img src="http://l.yimg.com/g/images/buddyicon.jpg#8331703@N04" alt="dig-t" width="48" height="48" /><br />
+			dig-t</a>
+	</p>	<p>
+		<a href="/photos/kuzirawhale/" rel="contact">
+			<img src="http://farm1.static.flickr.com/224/buddyicons/55623505@N00.jpg?1178033907#55623505@N00" alt="kuzirawhale" width="48" height="48" /><br />
+			kuzirawhale</a>
+	</p>	<p>
+		<a href="/photos/h3f3f/" rel="contact">
+			<img src="http://farm1.static.flickr.com/23/buddyicons/63211198@N00.jpg?1121084879#63211198@N00" alt="h3f3f" width="48" height="48" /><br />
+			h3f3f</a>
+	</p>	<p>
+		<a href="/photos/notohiro/" rel="contact">
+			<img src="http://farm4.static.flickr.com/3163/buddyicons/24112745@N07.jpg?1219129128#24112745@N07" alt="notohiro" width="48" height="48" /><br />
+			notohiro</a>
+	</p>
+					<p class="MoreContacts">						
+					<a href="/people/kusaker/contacts/" rel="me">More...</a>
+					</p>
+				</div>
+				<br clear="all" />
+
+				<h3>kusaker's public groups</h3>
+
+				<table class="Stats">
+					<tr>
+						<td width="50%">
+						<ul>
+							<li>
+								<a href="/groups/rightasrain/">Right as Rain</a>
+							</li>
+							<li>
+								<a href="/groups/11947580@N00/">Night Images</a>
+							</li>
+							<li>
+								<a href="/groups/japanese-food/">Japanese Food</a>
+							</li>
+							<li>
+								<a href="/groups/20077958@N00/">Museum</a>
+							</li>
+							<li>
+								<a href="/groups/34062645@N00/">iPodCentral</a>
+							</li>
+							<li>
+								<a href="/groups/greenisbeautiful/">Green is Beautiful</a>
+							</li>
+							<li>
+								<a href="/groups/reflections/">Reflections</a>
+							</li>
+							<li>
+								<a href="/groups/fireworks/">Fireworks</a>
+							</li>
+							<li>
+								<a href="/groups/78418589@N00/">Yokohama</a>
+							</li>
+							<li>
+								<a href="/groups/79171409@N00/">subway</a>
+							</li>
+							<li>
+								<a href="/groups/jlandscape/">Japanese Landscape - 日本の風景写真 -</a>
+							</li>
+							<li>
+								<a href="/groups/68004195@N00/">Full Moon</a>
+							</li>
+							<li>
+								<a href="/groups/tokyo-sky/">TOKYO SKY</a>
+							</li>
+							<li>
+								<a href="/groups/tokyoimages/">Tokyo Images</a>
+							</li>
+							<li>
+								<a href="/groups/windowsnaps/">Just Windows!</a>
+							</li>
+							<li>
+								<a href="/groups/towerblock/">tower block</a>
+							</li>
+							<li>
+								<a href="/groups/geotagging/">GeoTagging Flickr</a>
+							</li>
+							<li>
+								<a href="/groups/64605954@N00/">Kanji</a>
+							</li>
+							<li>
+								<a href="/groups/95576359@N00/">Reflections of...</a>
+							</li>
+							<li>
+								<a href="/groups/processing/">Processing.org</a>
+							</li>
+							<li>
+								<a href="/groups/sunsetpix/">SUNSET&amp;RISEPIX</a>
+							</li>
+							<li>
+								<a href="/groups/wiring/">wiring / 配線</a>
+							</li>
+							<li>
+								<a href="/groups/hitomoji/">Hito Moji</a>
+							</li>
+							<li>
+								<a href="/groups/highways_ramps/">highway overpasses &amp; ramps</a>
+							</li>
+						</ul>
+						</td>
+						<td width="50%">
+						<ul>
+							<li>
+								<a href="/groups/50167249@N00/">I Love Tokyo Tower</a>
+							</li>
+							<li>
+								<a href="/groups/aperture_users/">Aperture Users</a>
+							</li>
+							<li>
+								<a href="/groups/train_station/">Train、Station &amp; Terminal</a>
+							</li>
+							<li>
+								<a href="/groups/japan_directory_nihon/">JAPAN [directory] 日本</a>
+							</li>
+							<li>
+								<a href="/groups/ilovetrains/">I Love Trains</a>
+							</li>
+							<li>
+								<a href="/groups/slow/">            Slow Shutter Speed</a>
+							</li>
+							<li>
+								<a href="/groups/views100/">Views: 100</a>
+							</li>
+							<li>
+								<a href="/groups/48652386@N00/">JAPANESE TRAIN RAILS</a>
+							</li>
+							<li>
+								<a href="/groups/peopleinpublictransport/">People in Public Transport</a>
+							</li>
+							<li>
+								<a href="/groups/ixy700/">Canon IXY 700</a>
+							</li>
+							<li>
+								<a href="/groups/japanese-typography/">Japanese Typography</a>
+							</li>
+							<li>
+								<a href="/groups/muji360/">MUJI / 無印良品</a>
+							</li>
+							<li>
+								<a href="/groups/1000views-of-tokyotower/">東京タワー千景 (1000 Views of Tokyo Tower)</a>
+							</li>
+							<li>
+								<a href="/groups/japanrail/">[JR] Japan Rail</a>
+							</li>
+							<li>
+								<a href="/groups/night_reflections/">Night Reflection</a>
+							</li>
+							<li>
+								<a href="/groups/japanesesigns/">Japanese Signs / 日本語の標識</a>
+							</li>
+							<li>
+								<a href="/groups/dejavuphotos/">Deja Vu (Two photos that look the same despite being different)</a>
+							</li>
+							<li>
+								<a href="/groups/60179787@N00/">World from a train</a>
+							</li>
+							<li>
+								<a href="/groups/tanuki/">狸</a>
+							</li>
+							<li>
+								<a href="/groups/weihnachten/">weihnachten? ist mir doch egal</a>
+							</li>
+							<li>
+								<a href="/groups/kanji/">Kanji 漢字</a>
+							</li>
+							<li>
+								<a href="/groups/49527651@N00/">the colour of the sky</a>
+							</li>
+							<li>
+								<a href="/groups/346041@N23/">Seibu Railways of Tokyo and Saitama (西武線), Japan.</a>
+							</li>
+							<li>
+								<a href="/groups/24flickr/">24 hours of Flickr</a>
+							</li>
+						</ul>
+						</td>
+					</tr>
+				</table>
+
+
+				<h3>A bit more about kusaker...</h3>
+				<table class="Stats">
+					<tr>
+						<td width="25%">Hometown:</td>
+						<td>Shinagawa</td>
+					</tr>
+					<tr>
+						<td width="25%">Occupation:</td>
+						<td class="title">University student</td>
+					</tr>
+				</table>
+
+			</td>
+			<td id="Right">
+				<h3>Testimonials </h3>
+
+
+
+				<p>kusaker doesn't have any testimonials yet.</p>				
+			
+
+
+<!-- IF ISN'T IGNORED -->
+
+			
+
+			<img src="http://l.yimg.com/g/images/spaceball.gif" alt="spacer image" width="200" height="1" />			
+
+			</td>			
+		</tr>
+	</table>
+
+</div>
+
+			
+</div>
+
+<br id="MainFooterClear" clear="all" />
+
+<div id="FooterWrapper">
+<div class="Footer">
+		
+<table class="Jump" cellspacing="0">
+	        
+                <tr>
+                <th class="To">
+                        You
+                </th>
+                <td>
+			<a href="/signin/">Sign in</a> |  
+			<a href="/signup/">Create Your Free Account</a>	
+                </td>
+        </tr>
+                <tr>
+                <th class="To">
+                        <a href="/explore/" class="Plain">Explore</a>
+                </th>
+                <td>
+			<a href="/places/">Places</a> | 
+			<a href="/explore/interesting/7days/">Last 7 Days</a> | 
+			<a href="/explore/interesting/2008/09/">This Month</a> | 
+			<a href="/photos/tags/">Popular Tags</a> | 
+			<a href="/commons/">The Commons</a> | 
+			<a href="/creativecommons/">Creative Commons</a> | 
+			<a href="/search/">Search</a>
+                </td>
+        </tr>
+        <tr>
+                <th class="To">
+                        <a href="/help/" class="Plain">Help</a>
+                </th>
+                <td>
+                        <a href="/guidelines.gne">Community Guidelines</a> | 
+                        <a href="/help/forum/">The Help Forum</a> |
+
+                        <a href="/help/faq/">FAQ</a> | 
+                                                <a href="/sitemap.gne">Sitemap</a> | 
+                        <a href="/help/contact/">Help by Email</a>		
+                </td>
+        </tr>
+</table>
+<div class="Delicious">
+<a href="http://del.icio.us/post" 
+onclick="window.open('http://delicious.com/save?partner=flickr&amp;v=5&amp;noui&amp;jump=close&amp;url='+encodeURIComponent(location.href)+'&amp;title='+encodeURIComponent(document.title), 'delicious','toolbar=no,width=550,height=550'); return false;"><img src="http://l.yimg.com/g/images/add_to_delicious.gif.v1" width="10" height="10" /> &nbsp;Save to Delicious</a>
+</div>			        
+	
+	<p class="About">
+	        
+                                                        <span class="yahoo_logo">
+                                <a href="http://www.yahoo.com"><img src="http://l.yimg.com/g/images/logo_yahoo_company.gif.v11691.14" width="99" height="11" alt="Flickr, a Yahoo! Company" /></a>
+                                </span>
+                        		
+		<a href="http://blog.flickr.net/">Flickr Blog</a> | 
+		<a href="/about/">About Flickr</a> | 
+		<a href="/terms.gne" onClick="window.open('/terms.gne','TOC','status=yes,scrollbars=yes,resizable=yes,width=600,height=480'); return false">Terms of Use</a> | 
+		<a href="/privacy_policy.gne">Your Privacy</a> | 
+		<a href="http://docs.yahoo.com/info/copyright/copyright.html" target="_blank">Copyright/IP Policy</a> |		<a id="ft-report-abuse" href="/report_abuse.gne">Report Abuse</a>
+		
+		<p class="LanguageSelector">
+        
+                                        
+	<span>
+		<a href="/change_language.gne?lang=zh-hk&magic_cookie=89d44653b4f795eb9de5f5e64856b86e" class="image_link" id="lang_zh-hk"><img src="http://l.yimg.com/g/images/lang_zh-tw_11px_default.png" width="45" height="13" id="langselect_zh-hk" alt="繁體中文"></a>		<b>|</b>
+		<a href="/change_language.gne?lang=de-de&magic_cookie=89d44653b4f795eb9de5f5e64856b86e" >Deutsch</a>
+		<b>|</b>
+		<a href="/change_language.gne?lang=en-us&magic_cookie=89d44653b4f795eb9de5f5e64856b86e" class="selected">English</a>
+		<b>|</b>
+		<a href="/change_language.gne?lang=es-us&magic_cookie=89d44653b4f795eb9de5f5e64856b86e" >Espa&#241;ol</a>
+		<b>|</b>
+		<a href="/change_language.gne?lang=fr-fr&magic_cookie=89d44653b4f795eb9de5f5e64856b86e" >Fran&#231;ais</a>
+		<b>|</b>
+		<a href="/change_language.gne?lang=ko-kr&magic_cookie=89d44653b4f795eb9de5f5e64856b86e" class="image_link" id="lang_ko-kr"><img src="http://l.yimg.com/g/images/lang_ko-kr_11px_default.png" width="23" height="13" id="langselect_ko-kr" alt="한글"></a>		<b>|</b>
+		<a href="/change_language.gne?lang=it-it&magic_cookie=89d44653b4f795eb9de5f5e64856b86e" >Italiano</a>
+		<b>|</b>
+		<a href="/change_language.gne?lang=pt-br&magic_cookie=89d44653b4f795eb9de5f5e64856b86e" >Portugu&#234;s</a>
+			</span>
+	
+		<script type="text/javascript">if (_ge('langselect_zh-hk')) F.decorate(_ge('langselect_zh-hk'), F._link_button).button_go_go_go();</script>
+	<script type="text/javascript">if (_ge('langselect_ko-kr')) F.decorate(_ge('langselect_ko-kr'), F._link_button).button_go_go_go();</script>
+	Copyright &copy; 2008 Yahoo! Inc. All rights reserved.
+	</p>  	</p>
+	
+
+<br />
+
+	
+</div>
+</div>
+<div style="background: #000; color: #0f0; text-align: left; font-family: &quot;Courier New&quot;, Courier, monospace;"></div>
+
+
+
+
+
+<script type="text/javascript">
+try{
+	if (window.personmenu_init) personmenu_init(0);
+} catch(er) {}
+
+</script>
+
+
+
+
+<!-- page generated by www21 (in mud) at 16:47:40 09/26/08 in 418ms -->
+
+
+<script src="http://us.adserver.yahoo.com/a?f=792600091&p=flickr&l=FOOT9&c=r"></script>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

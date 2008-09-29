@@ -1,0 +1,631 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+    <title>kzys's Profile &mdash; GitHub</title>
+    <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub" />
+    <link rel="fluid-icon" href="http://github.com/fluidicon.png" title="GitHub" />
+
+    
+      <link href="/stylesheets/bundle.css?e6b862849f822923801bf4dd96e1fb8aeeecad75" media="screen" rel="stylesheet" type="text/css" />
+    
+
+    
+      
+        <script src="/javascripts/bundle.js?e6b862849f822923801bf4dd96e1fb8aeeecad75" type="text/javascript"></script>
+      
+    
+    
+  
+  <link href="/kzys.atom" rel="alternate" title="atom" type="application/atom+xml" />
+
+
+    
+  </head>
+
+  
+
+  <body>
+    
+
+    <div id="main">
+      <div id="header" class="basic">
+        <div class="site">
+          <div class="logo">
+            <a href="/"><img src="/images/modules/header/logo.png" alt="git-hub" /></a>
+          </div>
+          
+            <div class="actions">
+              <a href="/">Home</a>
+              <a href="/plans"><b><u>Pricing and Signup</u></b></a>
+              <a href="/repositories">Repositories</a>
+              <a href="/news">News</a>
+              <a href="/login">Login</a>
+            </div>
+          
+        </div>
+      </div>
+      
+      
+        <div class="site">
+          
+
+
+
+  <div id="dashboard">
+    <div class="dossier">
+      <div class="profile">
+        
+        <div class="identity">
+          <img alt="" height="50" src="http://www.gravatar.com/avatar/7828b45f8396aa361d85cead01fd99ca?s=50&amp;d=http%3A%2F%2Fgithub.com%2Fimages%2Fgravatars%2Fgravatar-50.png" width="50" />
+          <h1>kzys</h1>
+        </div>
+        
+        <div class="buttons">
+                  <a href="/signup">
+          <img src="/images/modules/dashboard/dossier/follow_button.png"/>
+        </a>
+
+          
+            <a href="/inbox/new/kzys"><img alt="Message_button" src="/images/modules/dashboard/dossier/message_button.png?fdda4acd32121e34031eb0614d2aa7a302d727f4" /></a>
+          
+        </div>
+
+          <div class="vcard corner">
+            <div class="info">
+              
+                  <div class="field">
+      <label>Name:</label>
+      <div class="fn">
+        <span id="profile_name" rel="/users/kzys" class="">KATO Kazuyoshi</span>
+        
+      </div>
+    </div>
+
+                  <div class="field">
+      <label>Email:</label>
+      <div class="email">
+        <script type="text/javascript">eval(unescape('%64%6f%63%75%6d%65%6e%74%2e%77%72%69%74%65%28%27%3c%61%20%63%6c%61%73%73%3d%22%65%6d%61%69%6c%22%20%68%72%65%66%3d%22%6d%61%69%6c%74%6f%3a%6b%7a%79%73%40%38%2d%70%2e%69%6e%66%6f%22%20%69%64%3d%22%70%72%6f%66%69%6c%65%5f%65%6d%61%69%6c%22%3e%6b%7a%79%73%40%38%2d%70%2e%69%6e%66%6f%3c%2f%61%3e%27%29%3b'))</script>
+        
+      </div>
+    </div>
+
+                  <div class="field">
+      <label>Blog:</label>
+      <div class="url">
+        <a id="profile_blog" rel="nofollow me" href="http://blog.8-p.info/" class="url">http://blog.8-p.info/</a>
+        
+      </div>
+    </div>
+
+              
+                  <div class="field">
+      <label>Location:</label>
+      <div class="adr locality">
+        <span id="profile_location" rel="/users/kzys" class="">Tokyo</span>
+        
+      </div>
+    </div>
+
+              <div class="field">
+                <label>Followers:</label>
+                <div>
+                  
+                    11
+                  
+                </div>
+              </div>
+                  <div class="field">
+      <label>Public Repos:</label>
+      <div>
+        4
+      </div>
+    </div>
+
+            </div>
+          </div>
+        
+      </div>
+      
+      <ul class="projects">
+        
+          
+          
+
+<li class="project">
+  <div class="title"><b><a href="/kzys/gyazo-pl/tree">gyazo-pl</a></b></div>
+  <div class="description">
+    
+      Gyazo clone
+    
+  </div>
+  <div class="meta">
+    
+      Created <abbr class="relatize" title="2008-09-25 09:16:17">Thu Sep 25 09:16:17 -0700 2008</abbr>
+    
+  </div>
+  <div class="graph">
+    <div class="bars"><object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000"
+              width="416"
+              height="20"
+              id="participation_graph" >
+      <param name="movie" value="/flash/participation_graph.swf"/>
+      <param name="allowScriptAccess" value="always" />
+      <param name="quality" value="high" />
+      <param name="scale" value="noscale" />
+      <param name="wmode" value="transparent" />
+      <param NAME="FlashVars" value="location=/kzys/gyazo-pl/graphs/owner_participation"> 
+      <embed src="/flash/participation_graph.swf"
+             width="416"
+             height="20"
+             name="participation_graph"
+             quality="high"
+             wmode="transparent"
+             allowScriptAccess="always"
+             type="application/x-shockwave-flash"
+             pluginspage="http://www.macromedia.com/go/getflashplayer"
+             FlashVars="location=/kzys/gyazo-pl/graphs/owner_participation"
+      /></object></div>
+    <img class="legend" src="/images/modules/dashboard/dossier/participation_legend.png" alt="legend" />
+  </div>
+</li>
+
+        
+          
+          
+
+<li class="project">
+  <div class="title"><b><a href="/kzys/imap-client/tree">imap-client</a></b></div>
+  <div class="description">
+    
+      IMAP client written in Objective-C
+    
+  </div>
+  <div class="meta">
+    
+      Created <abbr class="relatize" title="2008-08-24 02:32:14">Sun Aug 24 02:32:14 -0700 2008</abbr>
+    
+  </div>
+  <div class="graph">
+    <div class="bars"><object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000"
+              width="416"
+              height="20"
+              id="participation_graph" >
+      <param name="movie" value="/flash/participation_graph.swf"/>
+      <param name="allowScriptAccess" value="always" />
+      <param name="quality" value="high" />
+      <param name="scale" value="noscale" />
+      <param name="wmode" value="transparent" />
+      <param NAME="FlashVars" value="location=/kzys/imap-client/graphs/owner_participation"> 
+      <embed src="/flash/participation_graph.swf"
+             width="416"
+             height="20"
+             name="participation_graph"
+             quality="high"
+             wmode="transparent"
+             allowScriptAccess="always"
+             type="application/x-shockwave-flash"
+             pluginspage="http://www.macromedia.com/go/getflashplayer"
+             FlashVars="location=/kzys/imap-client/graphs/owner_participation"
+      /></object></div>
+    <img class="legend" src="/images/modules/dashboard/dossier/participation_legend.png" alt="legend" />
+  </div>
+</li>
+
+        
+          
+          
+
+<li class="project">
+  <div class="title"><b><a href="/kzys/kotoba-with-flickr/tree">kotoba-with-flickr</a></b></div>
+  <div class="description">
+    
+      Japanese version of &quot;Spell with Flickr&quot;
+    
+  </div>
+  <div class="meta">
+    
+      Created <abbr class="relatize" title="2008-09-01 07:05:19">Mon Sep 01 07:05:19 -0700 2008</abbr>
+    
+  </div>
+  <div class="graph">
+    <div class="bars"><object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000"
+              width="416"
+              height="20"
+              id="participation_graph" >
+      <param name="movie" value="/flash/participation_graph.swf"/>
+      <param name="allowScriptAccess" value="always" />
+      <param name="quality" value="high" />
+      <param name="scale" value="noscale" />
+      <param name="wmode" value="transparent" />
+      <param NAME="FlashVars" value="location=/kzys/kotoba-with-flickr/graphs/owner_participation"> 
+      <embed src="/flash/participation_graph.swf"
+             width="416"
+             height="20"
+             name="participation_graph"
+             quality="high"
+             wmode="transparent"
+             allowScriptAccess="always"
+             type="application/x-shockwave-flash"
+             pluginspage="http://www.macromedia.com/go/getflashplayer"
+             FlashVars="location=/kzys/kotoba-with-flickr/graphs/owner_participation"
+      /></object></div>
+    <img class="legend" src="/images/modules/dashboard/dossier/participation_legend.png" alt="legend" />
+  </div>
+</li>
+
+        
+          
+          
+
+<li class="project">
+  <div class="title"><b><a href="/kzys/memcacheb/tree">memcacheb</a></b></div>
+  <div class="description">
+    
+      Web based memcached browser
+    
+  </div>
+  <div class="meta">
+    
+      Created <abbr class="relatize" title="2008-08-21 09:20:09">Thu Aug 21 09:20:09 -0700 2008</abbr>
+    
+  </div>
+  <div class="graph">
+    <div class="bars"><object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000"
+              width="416"
+              height="20"
+              id="participation_graph" >
+      <param name="movie" value="/flash/participation_graph.swf"/>
+      <param name="allowScriptAccess" value="always" />
+      <param name="quality" value="high" />
+      <param name="scale" value="noscale" />
+      <param name="wmode" value="transparent" />
+      <param NAME="FlashVars" value="location=/kzys/memcacheb/graphs/owner_participation"> 
+      <embed src="/flash/participation_graph.swf"
+             width="416"
+             height="20"
+             name="participation_graph"
+             quality="high"
+             wmode="transparent"
+             allowScriptAccess="always"
+             type="application/x-shockwave-flash"
+             pluginspage="http://www.macromedia.com/go/getflashplayer"
+             FlashVars="location=/kzys/memcacheb/graphs/owner_participation"
+      /></object></div>
+    <img class="legend" src="/images/modules/dashboard/dossier/participation_legend.png" alt="legend" />
+  </div>
+</li>
+
+        
+      </ul>
+    </div>
+
+    
+      <div class="followers">
+        <h1>Following</h1>
+        <ul>
+          
+            <li>
+            <a href="/swdyh" title="swdyh"><img alt="" height="24" src="http://www.gravatar.com/avatar/465e43442fc3604b4a7ad9c55bc52066?s=24&amp;d=http%3A%2F%2Fgithub.com%2Fimages%2Fgravatars%2Fgravatar-24.png" width="24" /></a>
+            </li>
+          
+            <li>
+            <a href="/youpy" title="youpy"><img alt="" height="24" src="http://www.gravatar.com/avatar/beb3b5ba82cf6bb2e0a4b1d328fa01d0?s=24&amp;d=http%3A%2F%2Fgithub.com%2Fimages%2Fgravatars%2Fgravatar-24.png" width="24" /></a>
+            </li>
+          
+            <li>
+            <a href="/ku" title="ku"><img alt="" height="24" src="http://www.gravatar.com/avatar/6ead85b132078f2f4f91a0caefbfb7c5?s=24&amp;d=http%3A%2F%2Fgithub.com%2Fimages%2Fgravatars%2Fgravatar-24.png" width="24" /></a>
+            </li>
+          
+            <li>
+            <a href="/to" title="to"><img alt="" height="24" src="http://www.gravatar.com/avatar/dc71fbda37ddba16398fd0f16515afdf?s=24&amp;d=http%3A%2F%2Fgithub.com%2Fimages%2Fgravatars%2Fgravatar-24.png" width="24" /></a>
+            </li>
+          
+            <li>
+            <a href="/tmaesaka" title="tmaesaka"><img alt="" height="24" src="http://www.gravatar.com/avatar/0ff261ebaf9ef854ab84970ff91bbb38?s=24&amp;d=http%3A%2F%2Fgithub.com%2Fimages%2Fgravatars%2Fgravatar-24.png" width="24" /></a>
+            </li>
+          
+            <li>
+            <a href="/eto" title="eto"><img alt="" height="24" src="http://www.gravatar.com/avatar/703503632e8e6fde0e6f7a2817e2e518?s=24&amp;d=http%3A%2F%2Fgithub.com%2Fimages%2Fgravatars%2Fgravatar-24.png" width="24" /></a>
+            </li>
+          
+            <li>
+            <a href="/omo" title="omo"><img alt="" height="24" src="http://www.gravatar.com/avatar/783f7d008fe6b043ae81203941052c1d?s=24&amp;d=http%3A%2F%2Fgithub.com%2Fimages%2Fgravatars%2Fgravatar-24.png" width="24" /></a>
+            </li>
+          
+            <li>
+            <a href="/ceplus" title="ceplus"><img alt="" height="24" src="http://www.gravatar.com/avatar/a9a77a2b4413a3106d350ab1eeec38da?s=24&amp;d=http%3A%2F%2Fgithub.com%2Fimages%2Fgravatars%2Fgravatar-24.png" width="24" /></a>
+            </li>
+          
+            <li>
+            <a href="/tom-lpsd" title="tom-lpsd"><img alt="" height="24" src="http://www.gravatar.com/avatar/ff83233bc3b1b823b3552b1ea9435c6c?s=24&amp;d=http%3A%2F%2Fgithub.com%2Fimages%2Fgravatars%2Fgravatar-24.png" width="24" /></a>
+            </li>
+          
+            <li>
+            <a href="/os0x" title="os0x"><img alt="" height="24" src="http://www.gravatar.com/avatar/f4f1d0b0e23b964b1bc717c7bba07e2a?s=24&amp;d=http%3A%2F%2Fgithub.com%2Fimages%2Fgravatars%2Fgravatar-24.png" width="24" /></a>
+            </li>
+          
+            <li>
+            <a href="/motemen" title="motemen"><img alt="" height="24" src="http://www.gravatar.com/avatar/9b741203feda475cbeae8b384de9f415?s=24&amp;d=http%3A%2F%2Fgithub.com%2Fimages%2Fgravatars%2Fgravatar-24.png" width="24" /></a>
+            </li>
+          
+            <li>
+            <a href="/mootoh" title="mootoh"><img alt="" height="24" src="http://www.gravatar.com/avatar/c13fc8b8052d56df31f696dff51e7a8c?s=24&amp;d=http%3A%2F%2Fgithub.com%2Fimages%2Fgravatars%2Fgravatar-24.png" width="24" /></a>
+            </li>
+          
+            <li>
+            <a href="/dann" title="dann"><img alt="" height="24" src="http://www.gravatar.com/avatar/6c336cac38027aee98b47d959bff77d7?s=24&amp;d=http%3A%2F%2Fgithub.com%2Fimages%2Fgravatars%2Fgravatar-24.png" width="24" /></a>
+            </li>
+          
+        </ul>
+      </div>
+    
+
+    <div class="news public_news">
+      <h1>
+        Public Activity&nbsp;
+        <a href="/kzys.atom"><img alt="feed" src="/images/icons/feed.png?fdda4acd32121e34031eb0614d2aa7a302d727f4" /></a>
+      </h1>
+
+      
+        <div class="alert create"><div class="body"><div class="title">
+  <a href="/kzys">kzys</a>
+  <span>created</span>
+  <a href="http://github.com/kzys/gyazo-pl/tree">gyazo-pl</a>
+
+  
+
+  <abbr title="2008-09-25 09:16:18">
+    about 14 hours ago
+  </abbr>
+</div>
+<div class="details">
+  
+  <div class="message">
+    New repository is at <a href="http://github.com/kzys/gyazo-pl/tree">kzys/gyazo-pl</a>
+  </div>
+</div>
+</div></div>
+      
+        <div class="alert gist"><div class="body"><div class="title">
+  <a href="/kzys">kzys</a>
+  <span>created</span> 
+  <a href="http://gist.github.com/12616">gist: 12616</a> 
+
+  
+
+  <abbr title="2008-09-24 10:29:42">
+    1 day ago
+  </abbr>
+</div>
+<div class="details">
+  
+  <div class="message">
+    http://youtube.com/watch?v=Bkp9bDGDd1w
+http://youtube.com/watch?v=K2cYWfq--Nw
+http://youtube.com/watch?v=bl6RJyZdBSU
+  </div>
+</div>
+</div></div>
+      
+        <div class="alert gist"><div class="body"><div class="title">
+  <a href="/kzys">kzys</a>
+  <span>updated</span> 
+  <a href="http://gist.github.com/10849">gist: 10849</a> 
+
+  
+
+  <abbr title="2008-09-15 06:18:16">
+    10 days ago
+  </abbr>
+</div>
+<div class="details">
+  
+  <div class="message">
+    ﻿﻿﻿﻿Index: t/plugins/Filter-FlickrContactPhotos/base.t
+===================================================================
+--- t/plugins/Filter-FlickrContactPhotos/base.t	(revision 0)
+  </div>
+</div>
+</div></div>
+      
+        <div class="alert gist"><div class="body"><div class="title">
+  <a href="/kzys">kzys</a>
+  <span>created</span> 
+  <a href="http://gist.github.com/10849">gist: 10849</a> 
+
+  
+
+  <abbr title="2008-09-15 06:17:00">
+    10 days ago
+  </abbr>
+</div>
+<div class="details">
+  
+  <div class="message">
+    ﻿﻿﻿﻿Index: t/plugins/Filter-FlickrContactPhotos/base.t
+===================================================================
+--- t/plugins/Filter-FlickrContactPhotos/base.t	(revision 0)
+  </div>
+</div>
+</div></div>
+      
+        <div class="alert gist"><div class="body"><div class="title">
+  <a href="/kzys">kzys</a>
+  <span>created</span> 
+  <a href="http://gist.github.com/10830">gist: 10830</a> 
+
+  
+
+  <abbr title="2008-09-15 03:30:18">
+    10 days ago
+  </abbr>
+</div>
+<div class="details">
+  
+  <div class="message">
+    Index: lib/Plagger/Plugin/CustomFeed/FlickrSearch.pm
+===================================================================
+--- lib/Plagger/Plugin/CustomFeed/FlickrSearch.pm	(revision 2044)
+  </div>
+</div>
+</div></div>
+      
+        <div class="alert gist"><div class="body"><div class="title">
+  <a href="/kzys">kzys</a>
+  <span>created</span> 
+  <a href="http://gist.github.com/10825">gist: 10825</a> 
+
+  
+
+  <abbr title="2008-09-15 01:59:17">
+    10 days ago
+  </abbr>
+</div>
+<div class="details">
+  
+  <div class="message">
+    Index: lib/Plagger/Plugin/Filter/FetchEnclosure/Xango.pm
+===================================================================
+--- lib/Plagger/Plugin/Filter/FetchEnclosure/Xango.pm	(revision 2044)
+  </div>
+</div>
+</div></div>
+      
+        <div class="alert follow"><div class="body"><div class="title">
+  <a href="/kzys">kzys</a>
+  <span>started following</span>
+  
+    <a href="http://github.com/dann">dann</a> 
+  
+
+  
+
+  <abbr title="2008-09-11 09:36:42">
+    14 days ago
+  </abbr>
+</div>
+<div class="details">
+  
+    
+  
+  <div class="message">
+    dann has 
+    12 
+    public repos 
+    and 15
+   followers.
+  </div>
+</div>
+</div></div>
+      
+        <div class="alert commit"><div class="body">
+  <div class="title">
+    <a href="/kzys">kzys</a>
+    <span>committed</span> to
+    <a href="http://github.com/kzys/kotoba-with-flickr/tree">kzys/kotoba-with-flickr</a>
+    <abbr title="2008-09-05 05:48:04">
+      20 days ago
+    </abbr>
+  </div>
+  <div class="details">
+    
+    <div class="message">
+      <p> <a href="http://github.com/kzys/kotoba-with-flickr/commit/9eb1fc81d772c0892324bc7a7389f51da928eb90">9eb1fc81d772c0892324bc7a7389f51da928eb90</a> </p>
+      <p> Added roman-to-kana convertion. </p>
+    </div>
+  </div>
+
+</div></div>
+      
+        <div class="alert commit"><div class="body">
+  <div class="title">
+    <a href="/kzys">kzys</a>
+    <span>committed</span> to
+    <a href="http://github.com/kzys/kotoba-with-flickr/tree">kzys/kotoba-with-flickr</a>
+    <abbr title="2008-09-01 07:27:09">
+      24 days ago
+    </abbr>
+  </div>
+  <div class="details">
+    
+    <div class="message">
+      <p> <a href="http://github.com/kzys/kotoba-with-flickr/commit/9b36e9e720c96710745672c255f14f59ae3cdfe0">9b36e9e720c96710745672c255f14f59ae3cdfe0</a> </p>
+      <p> Small fix for CSS and HTML. </p>
+    </div>
+  </div>
+
+</div></div>
+      
+        <div class="alert commit"><div class="body">
+  <div class="title">
+    <a href="/kzys">kzys</a>
+    <span>committed</span> to
+    <a href="http://github.com/kzys/kotoba-with-flickr/tree">kzys/kotoba-with-flickr</a>
+    <abbr title="2008-09-01 07:16:48">
+      24 days ago
+    </abbr>
+  </div>
+  <div class="details">
+    
+    <div class="message">
+      <p> <a href="http://github.com/kzys/kotoba-with-flickr/commit/4817d661a00001593a1eb16a1e6a192a845d9fa4">4817d661a00001593a1eb16a1e6a192a845d9fa4</a> </p>
+      <p> typo </p>
+    </div>
+  </div>
+
+</div></div>
+      
+      <div class="pagination"><span class="disabled">&laquo; Previous</span> <span class="current">1</span> <a href="/kzys?page=2">2</a> <a href="/kzys?page=3">3</a> <a href="/kzys?page=4">4</a> <a href="/kzys?page=5">5</a> <a href="/kzys?page=2" hotkey="l">Next &raquo;</a></div>
+    </div>
+  </div>
+
+
+        </div>
+      
+      
+      <div class="push"></div>
+    </div>
+    
+    <div id="footer">
+      <div class="site">
+        <div class="info">
+          <div class="links">
+            <a href="http://github.com/blog"><strong>Blog</strong></a> |
+            <a href="http://groups.google.com/group/github/">Google Group</a> | 
+            <a href="http://logicalawesome.lighthouseapp.com/projects/8570/home">Report a Bug</a> |
+            <a href="http://logicalawesome.lighthouseapp.com/projects/8570/home">Request a Feature</a> |
+            <a href="mailto:support@github.com">Contact</a> | 
+            <a href="http://github.wordpress.com">Status</a>
+          </div>
+          <div class="company">
+            <span id="_rrt" title="0.05814s from github.com">GitHub</span>
+            is <a href="http://logicalawesome.com/">Logical Awesome</a> | &copy;2008 | <a href="/site/terms">Terms of Service</a> | <a href="/site/privacy">Privacy Policy</a>
+          </div>
+        </div>
+        <div class="sponsor">
+          <a href="http://engineyard.com">Hosting provided by</a>&nbsp;
+          <a href="http://engineyard.com">
+            <img src="/images/modules/footer/engine_yard_logo.gif" alt="Hosted by Engine Yard" />
+          </a>
+        </div>
+      </div>
+    </div>
+    
+    <div id="coming_soon" style="display:none;">
+      This feature is coming soon.  Sit tight!
+    </div>
+        <script type="text/javascript">
+    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+    var pageTracker = _gat._getTracker("UA-3769691-2");
+    pageTracker._initData();
+    pageTracker._trackPageview();
+    </script>
+
+  </body>
+</html>

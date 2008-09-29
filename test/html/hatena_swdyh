@@ -1,0 +1,67 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html lang="ja">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>swdyh - はてな</title>
+    <meta http-equiv="Content-Style-Type" content="text/css">
+    <meta http-equiv="Content-Script-Type" content="text/javascript">
+    <link rel="stylesheet" href="/css/base.css" type="text/css" media="all">
+    <link rel="stylesheet" href="/statics/css/hatena-www-jp.css" type="text/css" media="all">
+<link rel="openid.server" href="http://www.hatena.ne.jp/openid/server" />
+
+</head>
+<body
+   id="hatena-www-user"
+   >
+<table id="headtable" cellpadding="0" cellspacing="0"><tr><td><div id="logo"><a href="/"><img src="/images/top/h1.gif" title="はてな" alt="はてな"></a></div></td>
+<td align="right"><ul id="feature"><li><a href="http://d.hatena.ne.jp/keyword/"><img src="/images/top/headbutton_keyword.gif" alt="Hatena::Keyword" title="Hatena::Keyword"></a></li><li><a href="http://q.hatena.ne.jp/"><img src="/images/top/headbutton_question.gif" alt="Hatena::Question" title="Hatena::Question"></a></li><li><a href="http://d.hatena.ne.jp/"><img src="/images/top/headbutton_diary.gif" alt="Hatena::Diary" title="Hatena::Diary"></a></li><li><a href="http://b.hatena.ne.jp/"><img src="/images/top/headbutton_bookmark.gif" alt="Hatena::Bookmark" title="Hatena::Bookmark"></a></li><li><a href="http://r.hatena.ne.jp/"><img src="/images/top/headbutton_rss.gif" alt="Hatena::RSS" title="Hatena::RSS"></a></li></ul></td>
+</tr></table>
+<div id="bannersub">
+<table cellspacing="0">
+<tbody>
+<tr>
+<td width="50%" nowrap="nowrap" class="username">&nbsp;ようこそ ゲスト さん</td>
+<td width="1%" nowrap="nowrap" class="gmenu"><a href="https://www.hatena.ne.jp/register?location=http%3A%2F%2Fwww.hatena.ne.jp%2Fswdyh%2F">ユーザー登録</a></td>
+<td width="1%" nowrap="nowrap" class="gmenu"><a href="https://www.hatena.ne.jp/login?location=http%3A%2F%2Fwww.hatena.ne.jp%2Fswdyh%2F">ログイン</a></td>
+<td width="1%" nowrap="nowrap" class="gmenu"><a href="/what" >ヘルプ</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+
+
+<div id="container">
+  <h1>
+      <img src="http://www.hatena.ne.jp/users/sw/swdyh/profile.gif" class="profile-image" alt="swdyh" title="swdyh" width="64" height="64" />
+swdyh
+  </h1>
+  <div id="body">
+    <div>
+
+
+      
+
+
+      <a href="http://a.hatena.ne.jp/swdyh/"><img src="/images/top/side_a.gif" alt="antenna" title="antenna" /></a>
+
+
+      <a href="http://b.hatena.ne.jp/swdyh/"><img src="/images/top/side_b.gif" alt="bookmark" title="bookmark" /></a>
+
+
+
+
+      <a href="http://d.hatena.ne.jp/swdyh/"><img src="/images/top/side_d.gif" alt="diary" title="diary" /></a>
+
+
+      <a href="http://f.hatena.ne.jp/swdyh/"><img src="/images/top/side_f.gif" alt="fotolife" title="fotolife" /></a>
+
+
+      <a href="http://s.hatena.ne.jp/swdyh/"><img src="/statics/images/icon-s.gif" alt="star" title="star" /></a>
+
+    </div>
+  </div>
+</div>
+
+    <div id="copyright">Copyright (C) 2001-2008 hatena. All Rights Reserved.</div>
+  </body>
+</html>

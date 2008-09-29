@@ -1,0 +1,1276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="ja" xml:lang="ja" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="content-script-type" content="text/javascript" />
+
+
+
+
+<link href="/b3/css/base.css?d=20080729" rel="stylesheet" type="text/css" media="all" />
+<link href="/b3/css/header.css?d=20080909" rel="stylesheet" type="text/css" media="all" />
+<link href="/b3/css/main.css?d=20080910" rel="stylesheet" type="text/css" media="all" />
+<link href="/b3/css/update.css?d=20080827" rel="stylesheet" type="text/css" media="all" />
+<link href="/b3/css/timeline.css?d=20080919" rel="stylesheet" type="text/css" media="all" />
+<link href="/b3/css/side.css?d=20080728" rel="stylesheet" type="text/css" media="all" />
+<link href="/b3/css/footer.css?d=20080807" rel="stylesheet" type="text/css" media="all" />
+
+
+<link rel="alternate" media="handheld" type="application/xhtml+xml" href="http://wassr.jp/user/kotoriko" />
+
+
+    <link rel="openid2.provider" href="https://wassr.jp/open_id/auth" />
+    <link rel="openid.server" href="https://wassr.jp/open_id/auth" />
+
+
+
+    <!-- iphone のときは JS 読まないの術 -->
+    
+    
+        <script type="text/javascript" src="/js/prototype.js?version=1.6.0.2"></script>
+    
+    
+    
+
+    
+        <script type="text/javascript" src="/js/scriptaculous/scriptaculous.js?load=effects"></script>
+    
+    <link href="/thickbox/thickbox.css?v=3" rel="stylesheet" type="text/css" media="all" />
+
+    <script type="text/javascript" src="/js/shortcut.js"></script>
+    <script type="text/javascript" src="/js/iepngfix.js?v=1.4"></script>
+    <script type="text/javascript" src="/js/jquery.js?v=1.2.6"></script>
+    <script type="text/javascript">
+        jQuery.noConflict();
+        $j = jQuery;
+    </script>
+    <script type="text/javascript" src="/thickbox/thickbox.js?v=8"></script>
+    <script type="text/javascript" src="/js/wassr.js?v=73"></script>
+
+
+
+
+
+
+
+<title>kotoriko - Wassr [お気軽メッセージングハブ・ワッサー]</title>
+<meta name="description" content="ワッサーは、今何をしているのかを投稿するシンプルなサービスです。PC、携帯電話、IM（インスタントメッセンジャー）、さらにSecondLifeから投稿が可能です。" />
+<meta name="keywords" content="Wassr,Wasser,Wassr,ワッサー,わっさー,ワサ,わさ,Twitter,ミニブログ,マイクロブログ,API,メッセージ,コミュニケーション,ひとこと,いま,リアルタイム,共有,携帯電話,IM,SecondLife,ブログパーツ,Prism,Jabber,OpenSocial" />
+<link rel="alternate" type="application/rss+xml" title="RSS" href="http://api.wassr.jp/user_timeline.rss?id=kotoriko" />
+
+<style type="text/css">
+
+     /* user */
+
+
+#PageBody {
+
+  background: #f4f4f4 url(/user/kotoriko/bgimage);
+  
+    background-repeat:     repeat;
+    background-attachment: scroll;
+    background-position:   left top;
+  
+
+}
+@handheld #PageBody {
+	background-image:none;
+}
+
+#globalnav {
+    
+        background-image: url(/img/headbar-bg/bg-globalmnu-default.png);
+    
+}
+
+
+</style>
+<link href="/b3/css/handheld.css?d=20080909" rel="stylesheet" type="text/css" media="handheld" />
+<link href="/b3/css/handheld.css?d=20080909" rel="stylesheet" type="text/css" media="only screen and (max-device-width:480px)" /> <!-- ipod touch hack -->
+</head>
+<body id="User">
+
+<div id="Contents">
+<!-- Header -->
+<div id="Header">
+	<p id="ServiceLogo"><a href="http://wassr.jp/"><img src="/b3/img/logo-wassr-b3.png" alt="Wassr(ワッサー)beta3" width="287" height="35" border="0" class="iepngfix" /></a></p>
+	
+
+	
+	
+	<div id="headlogin">
+	<p>ワッサーへようこそ！アカウントをお持ちなら<a class="loginform-trigger">ログインしてください。</a>
+	　<a href="https://wassr.jp/signup/create">新規登録はこちら</a></p>
+		<div id="headlogin-form">
+		
+    
+        
+
+        <form method="post" action="/account/login" id="LoginForm" name="LoginForm">
+<input type="hidden" name="CSRFPROTECT" value="sUe9hDUhmI8csj2OOLTO" />
+            <p>
+                <label for="fLoginID">ログインID</label>
+                <input name="login_id" id="fLoginID" type="text" />
+            </p>
+            <p>
+                <label for="fLoginPW">パスワード</label>
+                <input name="login_pw" id="fLoginPW" type="password" /><br />
+            </p>
+            <p>
+                <label for="fLoginSS" class="noteTxt">次回からの入力を省略</label><input name="session_forever" id="fLoginSS" type="checkbox" />
+            </p>
+            <p class="submit-btn">
+                <input value="ログイン" type="submit" />
+            </p>
+        </form>
+    
+
+
+		</div>
+	</div>
+	<script>
+	//<![CDATA[
+	$j(document).ready(function(){
+		$j('#headlogin a.loginform-trigger').click(function(){
+			$j('#headlogin-form').slideToggle();
+		});
+		$j('#headlogin-form').hide();
+	});
+	//]]>
+	</script>
+	
+	
+	
+	<div id="headlink">
+	<ul>
+	<li><a href="http://wassr.jp/help/about.html">Wassrとは？</a></li>
+	<li><a href="http://wassr.jp/help/faq.html">FAQ</a></li>
+	<li><a href="https://wassr.jp/contact/us">お問い合わせ</a></li>
+    <!--
+	<li>
+		<form method="get" action="/search/status" class="InputForm search" id="HeadSearch">
+<input type="hidden" name="CSRFPROTECT" value="sUe9hDUhmI8csj2OOLTO" />
+			<select name="">
+			<option value="">ヒトコト</option>
+			<option value="">ユーザー</option>
+			<option value="">チャンネル</option>
+			</select>
+			<input name="keyword" type="text" value="" size="30" id="fHeadSearch" />
+			<input type="submit" value="検索" class="submit" />
+		</form>
+	</li> -->
+	</ul>
+	</div>
+	<div class="clear-both"> &nbsp; </div>
+</div>
+<!-- /Header -->
+
+
+
+<!-- globalnav -->
+<div id="globalnav">
+<ul>
+<li id="gnav-Home"><a href="http://wassr.jp/" title="HOME"><span>HOME</span></a></li>
+
+<li id="gnav-Signup"><a href="https://wassr.jp/signup/create" title="新規登録"><span>新規登録</span></a></li>
+
+<li id="gnav-Channel"><a href="http://wassr.jp/channel/" title="ワサチャンネル"><span>ワサチャンネル</span></a></li>
+<li id="gnav-PublicTimeline"><a href="http://wassr.jp/status/" title="日本中のヒトコト"><span>日本中のヒトコト</span></a></li>
+<li id="gnav-Labs"><a href="http://wassr.jp/labs/" title="ラボ"><span>ラボ</span></a></li>
+</ul>
+</div>
+<!-- /globalnav -->
+
+<!-- PageBody -->
+<div id="PageBody">
+
+<div class="PageBody-shd"> &nbsp; </div>
+
+<!-- BodyWrapper -->
+<div id="BodyWrapper">
+
+<!-- Main -->
+<div id="Main">
+
+
+<div class="Main-hd"> &nbsp; </div>
+<div class="Main-contents">
+<!-- google_ad_section_start -->
+
+
+	<div class="localnav" id="lnav-User">
+		<ul class="current-user">
+		<li id="lnav-user"><a href="http://wassr.jp/user/kotoriko?page=1&amp;with_friends=0" title="kotorikoさんのヒトコト"><span>USER</span></a></li>
+		<li id="lnav-channel"><a href="/user/kotoriko/channel_messages" title="kotorikoさんのチャンネルでのヒトコト"><span>CHANNEL</span></a></li>
+		<li id="lnav-photo"><a href="/user/kotoriko/photos" title="kotorikoさんの写真"><span>PHOTO</span></a></li>
+		<li id="lnav-travel"><a href="/user/kotoriko/travel" title="kotorikoさんの旅路"><span>TRAVEL</span></a></li>
+		</ul>
+		<div class="clear-both"> &nbsp; </div>
+	</div>
+		
+			
+	<div class="OneTopic">
+
+        
+            <p>kotorikoさんのヒトコト</p>
+            <!-- Msgs -->
+            <div id="EntryMessages">
+            
+                
+<div class="OneMsg xfolkentry">
+    
+    <div class="MsgSide">
+        <div class="UserThumb32">
+            <a href="/user/kotoriko">
+                <img src="/user/kotoriko/profile_img.png.32.1212746583" width="32" height="32" />
+            </a>
+            
+        </div>
+    </div>
+
+    <div class="MsgBody">
+    
+        
+
+        <p class="message description">
+            <img src="/img/icn-balloon.gif" width="21" height="16" alt="" class="inlineicon" />
+
+            
+
+            
+            鶏肉の酒蒸し+ビール!
+
+            
+
+             
+        </p>
+
+		<div class="messagefoot_container">
+        <p class="messagefoot">
+            by <a href="/user/kotoriko" class="MsgUserName">kotoriko</a>
+            at <a href="/user/kotoriko/statuses/aBhANStZaW" title="鶏肉の酒蒸し+ビール!" class="MsgDateTime" >2008-09-26(Fri) 20:14:23</a>
+            via
+            <a href="/status/?via=web">web<img src="/img/pictogram/E716.gif" alt="web" width="16" height="16" class="viaemoji" /></a>
+			
+            
+
+            
+
+            <a href="/user/kotoriko/statuses/aBhANStZaW" title="鶏肉の酒蒸し+ビール!" class="taggedlink" id="OneStatusaBhANStZaW">
+                レス
+            </a>
+        </p>
+        
+		</div>
+
+        
+        
+            <div class="favorite_list">
+                イイネ:
+                
+                    <a href="/user/hardfrost" title="hardfrost"><img src="/user/hardfrost/profile_img.png.16.1215042155" alt="" title="" width="16" height="16" /></a>
+                
+                    <a href="/user/ishibutsu" title="ishibutsu"><img src="/user/ishibutsu/profile_img.png.16.1215045529" alt="" title="" width="16" height="16" /></a>
+                
+            </div>
+        
+		
+        
+
+
+
+
+
+
+
+
+
+
+
+<!-- oembed -->
+
+<!-- /oembed -->
+
+		
+        <div id="ReplyStatusaBhANStZaW" style="display:none;">
+            
+        </div>
+    </div>
+
+    <div class="clear-both"> &nbsp; </div>
+</div>
+
+
+            
+                
+<div class="OneMsg xfolkentry">
+    
+    <div class="MsgSide">
+        <div class="UserThumb32">
+            <a href="/user/kotoriko">
+                <img src="/user/kotoriko/profile_img.png.32.1212746583" width="32" height="32" />
+            </a>
+            
+        </div>
+    </div>
+
+    <div class="MsgBody">
+    
+        
+
+        <p class="message description">
+            <img src="/img/icn-balloon.gif" width="21" height="16" alt="" class="inlineicon" />
+
+            
+
+            
+            初残業で疲れたからビール+ブリ刺身
+
+            
+
+             
+        </p>
+
+		<div class="messagefoot_container">
+        <p class="messagefoot">
+            by <a href="/user/kotoriko" class="MsgUserName">kotoriko</a>
+            at <a href="/user/kotoriko/statuses/jvfm0QnEoz" title="初残業で疲れたからビール+ブリ刺身" class="MsgDateTime" >2008-09-26(Fri) 19:44:47</a>
+            via
+            <a href="/status/?via=web">web<img src="/img/pictogram/E716.gif" alt="web" width="16" height="16" class="viaemoji" /></a>
+			
+            
+
+            
+
+            <a href="/user/kotoriko/statuses/jvfm0QnEoz" title="初残業で疲れたからビール+ブリ刺身" class="taggedlink res_num" id="OneStatusjvfm0QnEoz">
+                レス(1)
+            </a>
+        </p>
+        
+		</div>
+
+        
+        
+            <div class="favorite_list">
+                イイネ:
+                
+                    <a href="/user/sytoh" title="sytoh"><img src="/user/sytoh/profile_img.png.16.1221418095" alt="" title="" width="16" height="16" /></a>
+                
+                    <a href="/user/hey11pop" title="hey11pop"><img src="/user/hey11pop/profile_img.png.16.1215080129" alt="" title="" width="16" height="16" /></a>
+                
+                    <a href="/user/noumi" title="noumi"><img src="/user/noumi/profile_img.png.16.1219683897" alt="" title="" width="16" height="16" /></a>
+                
+                    <a href="/user/shrk" title="shrk"><img src="/user/shrk/profile_img.png.16.1215614694" alt="" title="" width="16" height="16" /></a>
+                
+            </div>
+        
+		
+        
+
+
+
+
+
+
+
+
+
+
+
+<!-- oembed -->
+
+<!-- /oembed -->
+
+		
+        <div id="ReplyStatusjvfm0QnEoz" style="display:none;">
+            
+        </div>
+    </div>
+
+    <div class="clear-both"> &nbsp; </div>
+</div>
+
+
+            
+                
+<div class="OneMsg xfolkentry">
+    
+    <div class="MsgSide">
+        <div class="UserThumb32">
+            <a href="/user/kotoriko">
+                <img src="/user/kotoriko/profile_img.png.32.1212746583" width="32" height="32" />
+            </a>
+            
+        </div>
+    </div>
+
+    <div class="MsgBody">
+    
+        
+
+        <p class="message description">
+            <img src="/img/icn-balloon.gif" width="21" height="16" alt="" class="inlineicon" />
+
+            
+
+            
+            来生とかありでいいじゃんか。
+
+            
+
+             
+        </p>
+
+		<div class="messagefoot_container">
+        <p class="messagefoot">
+            by <a href="/user/kotoriko" class="MsgUserName">kotoriko</a>
+            at <a href="/user/kotoriko/statuses/h530fjokpz" title="来生とかありでいいじゃんか。" class="MsgDateTime" >2008-09-25(Thu) 20:39:38</a>
+            via
+            <a href="/status/?via=web">web<img src="/img/pictogram/E716.gif" alt="web" width="16" height="16" class="viaemoji" /></a>
+			
+            
+
+            
+
+            <a href="/user/kotoriko/statuses/h530fjokpz" title="来生とかありでいいじゃんか。" class="taggedlink" id="OneStatush530fjokpz">
+                レス
+            </a>
+        </p>
+        
+		</div>
+
+        
+        
+		
+        
+
+
+
+
+
+
+
+
+
+
+
+<!-- oembed -->
+
+<!-- /oembed -->
+
+		
+        <div id="ReplyStatush530fjokpz" style="display:none;">
+            
+        </div>
+    </div>
+
+    <div class="clear-both"> &nbsp; </div>
+</div>
+
+
+            
+                
+<div class="OneMsg xfolkentry">
+    
+    <div class="MsgSide">
+        <div class="UserThumb32">
+            <a href="/user/kotoriko">
+                <img src="/user/kotoriko/profile_img.png.32.1212746583" width="32" height="32" />
+            </a>
+            
+        </div>
+    </div>
+
+    <div class="MsgBody">
+    
+        
+
+        <p class="message description">
+            <img src="/img/icn-balloon.gif" width="21" height="16" alt="" class="inlineicon" />
+
+            
+
+            
+            今日は駄目だ、酒飲んじゃったら眠る。
+
+            
+
+             
+        </p>
+
+		<div class="messagefoot_container">
+        <p class="messagefoot">
+            by <a href="/user/kotoriko" class="MsgUserName">kotoriko</a>
+            at <a href="/user/kotoriko/statuses/q80UM7Ynf6" title="今日は駄目だ、酒飲んじゃったら眠る。" class="MsgDateTime" >2008-09-25(Thu) 20:38:42</a>
+            via
+            <a href="/status/?via=web">web<img src="/img/pictogram/E716.gif" alt="web" width="16" height="16" class="viaemoji" /></a>
+			
+            
+
+            
+
+            <a href="/user/kotoriko/statuses/q80UM7Ynf6" title="今日は駄目だ、酒飲んじゃったら眠る。" class="taggedlink" id="OneStatusq80UM7Ynf6">
+                レス
+            </a>
+        </p>
+        
+		</div>
+
+        
+        
+		
+        
+
+
+
+
+
+
+
+
+
+
+
+<!-- oembed -->
+
+<!-- /oembed -->
+
+		
+        <div id="ReplyStatusq80UM7Ynf6" style="display:none;">
+            
+        </div>
+    </div>
+
+    <div class="clear-both"> &nbsp; </div>
+</div>
+
+
+            
+                
+<div class="OneMsg xfolkentry">
+    
+    <div class="MsgSide">
+        <div class="UserThumb32">
+            <a href="/user/kotoriko">
+                <img src="/user/kotoriko/profile_img.png.32.1212746583" width="32" height="32" />
+            </a>
+            
+        </div>
+    </div>
+
+    <div class="MsgBody">
+    
+        
+
+        <p class="message description">
+            <img src="/img/icn-balloon.gif" width="21" height="16" alt="" class="inlineicon" />
+
+            
+
+            
+            そりゃたまには僕もセンチメンタルになるってものですよ。
+
+            
+
+             
+        </p>
+
+		<div class="messagefoot_container">
+        <p class="messagefoot">
+            by <a href="/user/kotoriko" class="MsgUserName">kotoriko</a>
+            at <a href="/user/kotoriko/statuses/LJM4wOaKol" title="そりゃたまには僕もセンチメンタルになるってものですよ。" class="MsgDateTime" >2008-09-25(Thu) 20:28:21</a>
+            via
+            <a href="/status/?via=web">web<img src="/img/pictogram/E716.gif" alt="web" width="16" height="16" class="viaemoji" /></a>
+			
+            
+
+            
+
+            <a href="/user/kotoriko/statuses/LJM4wOaKol" title="そりゃたまには僕もセンチメンタルになるってものですよ。" class="taggedlink" id="OneStatusLJM4wOaKol">
+                レス
+            </a>
+        </p>
+        
+		</div>
+
+        
+        
+            <div class="favorite_list">
+                イイネ:
+                
+                    <a href="/user/ishibutsu" title="ishibutsu"><img src="/user/ishibutsu/profile_img.png.16.1215045529" alt="" title="" width="16" height="16" /></a>
+                
+                    <a href="/user/kakaneko" title="kakaneko"><img src="/user/kakaneko/profile_img.png.16.1215089095" alt="" title="" width="16" height="16" /></a>
+                
+                    <a href="/user/shrk" title="shrk"><img src="/user/shrk/profile_img.png.16.1215614694" alt="" title="" width="16" height="16" /></a>
+                
+                    <a href="/user/stilllife" title="stilllife"><img src="/user/stilllife/profile_img.png.16.1219920445" alt="" title="" width="16" height="16" /></a>
+                
+                    <a href="/user/suchi" title="suchi"><img src="/user/suchi/profile_img.png.16.1215409113" alt="" title="" width="16" height="16" /></a>
+                
+            </div>
+        
+		
+        
+
+
+
+
+
+
+
+
+
+
+
+<!-- oembed -->
+
+<!-- /oembed -->
+
+		
+        <div id="ReplyStatusLJM4wOaKol" style="display:none;">
+            
+        </div>
+    </div>
+
+    <div class="clear-both"> &nbsp; </div>
+</div>
+
+
+            
+                
+<div class="OneMsg xfolkentry">
+    
+    <div class="MsgSide">
+        <div class="UserThumb32">
+            <a href="/user/kotoriko">
+                <img src="/user/kotoriko/profile_img.png.32.1212746583" width="32" height="32" />
+            </a>
+            
+        </div>
+    </div>
+
+    <div class="MsgBody">
+    
+        
+
+        <p class="message description">
+            <img src="/img/icn-balloon.gif" width="21" height="16" alt="" class="inlineicon" />
+
+            
+
+            
+            このオニオンドレッシング、今の時期の玉葱だと、水にさらしたほうがすぐに使えていいかも。 <a href="http://cookpad.com/recipe/281624" rel="nofollow" target="_blank">http://cookpad.com/recipe/281624</a>
+
+            
+
+             
+        </p>
+
+		<div class="messagefoot_container">
+        <p class="messagefoot">
+            by <a href="/user/kotoriko" class="MsgUserName">kotoriko</a>
+            at <a href="/user/kotoriko/statuses/LKxa9wWzZ1" title="このオニオンドレッシング、今の時期の玉葱だと、水にさらしたほうがすぐに使えていいかも。 http://cookpad.com/recipe/281624" class="MsgDateTime" >2008-09-21(Sun) 02:09:49</a>
+            via
+            <a href="/status/?via=web">web<img src="/img/pictogram/E716.gif" alt="web" width="16" height="16" class="viaemoji" /></a>
+			
+            
+
+            
+
+            <a href="/user/kotoriko/statuses/LKxa9wWzZ1" title="このオニオンドレッシング、今の時期の玉葱だと、水にさらしたほうがすぐに使えていいかも。 http://cookpad.com/recipe/281624" class="taggedlink" id="OneStatusLKxa9wWzZ1">
+                レス
+            </a>
+        </p>
+        
+		</div>
+
+        
+        
+		
+        
+
+
+
+
+
+
+
+
+
+
+
+<!-- oembed -->
+
+<!-- /oembed -->
+
+		
+        <div id="ReplyStatusLKxa9wWzZ1" style="display:none;">
+            
+        </div>
+    </div>
+
+    <div class="clear-both"> &nbsp; </div>
+</div>
+
+
+            
+                
+<div class="OneMsg xfolkentry">
+    
+    <div class="MsgSide">
+        <div class="UserThumb32">
+            <a href="/user/kotoriko">
+                <img src="/user/kotoriko/profile_img.png.32.1212746583" width="32" height="32" />
+            </a>
+            
+        </div>
+    </div>
+
+    <div class="MsgBody">
+    
+        
+
+        <p class="message description">
+            <img src="/img/icn-balloon.gif" width="21" height="16" alt="" class="inlineicon" />
+
+            
+
+            
+            レパートリーは、ほんの少し増えたなー。
+
+            
+
+             
+        </p>
+
+		<div class="messagefoot_container">
+        <p class="messagefoot">
+            by <a href="/user/kotoriko" class="MsgUserName">kotoriko</a>
+            at <a href="/user/kotoriko/statuses/gdgdURop0P" title="レパートリーは、ほんの少し増えたなー。" class="MsgDateTime" >2008-09-21(Sun) 02:07:22</a>
+            via
+            <a href="/status/?via=web">web<img src="/img/pictogram/E716.gif" alt="web" width="16" height="16" class="viaemoji" /></a>
+			
+            
+
+            
+
+            <a href="/user/kotoriko/statuses/gdgdURop0P" title="レパートリーは、ほんの少し増えたなー。" class="taggedlink" id="OneStatusgdgdURop0P">
+                レス
+            </a>
+        </p>
+        
+		</div>
+
+        
+        
+            <div class="favorite_list">
+                イイネ:
+                
+                    <a href="/user/ishibutsu" title="ishibutsu"><img src="/user/ishibutsu/profile_img.png.16.1215045529" alt="" title="" width="16" height="16" /></a>
+                
+            </div>
+        
+		
+        
+
+
+
+
+
+
+
+
+
+
+
+<!-- oembed -->
+
+<!-- /oembed -->
+
+		
+        <div id="ReplyStatusgdgdURop0P" style="display:none;">
+            
+        </div>
+    </div>
+
+    <div class="clear-both"> &nbsp; </div>
+</div>
+
+
+            
+                
+<div class="OneMsg xfolkentry">
+    
+    <div class="MsgSide">
+        <div class="UserThumb32">
+            <a href="/user/kotoriko">
+                <img src="/user/kotoriko/profile_img.png.32.1212746583" width="32" height="32" />
+            </a>
+            
+        </div>
+    </div>
+
+    <div class="MsgBody">
+    
+        
+
+        <p class="message description">
+            <img src="/img/icn-balloon.gif" width="21" height="16" alt="" class="inlineicon" />
+
+            
+
+            
+            トマトをフードプロセッサにかけて、オニオンドレッシング混ぜてくった。
+
+            
+
+             
+        </p>
+
+		<div class="messagefoot_container">
+        <p class="messagefoot">
+            by <a href="/user/kotoriko" class="MsgUserName">kotoriko</a>
+            at <a href="/user/kotoriko/statuses/zBcwPkCOJk" title="トマトをフードプロセッサにかけて、オニオンドレッシング混ぜてくった。" class="MsgDateTime" >2008-09-21(Sun) 02:01:44</a>
+            via
+            <a href="/status/?via=web">web<img src="/img/pictogram/E716.gif" alt="web" width="16" height="16" class="viaemoji" /></a>
+			
+            
+
+            
+
+            <a href="/user/kotoriko/statuses/zBcwPkCOJk" title="トマトをフードプロセッサにかけて、オニオンドレッシング混ぜてくった。" class="taggedlink" id="OneStatuszBcwPkCOJk">
+                レス
+            </a>
+        </p>
+        
+		</div>
+
+        
+        
+            <div class="favorite_list">
+                イイネ:
+                
+                    <a href="/user/rozuco" title="rozuco"><img src="/user/rozuco/profile_img.png.16.1222437317" alt="" title="" width="16" height="16" /></a>
+                
+            </div>
+        
+		
+        
+
+
+
+
+
+
+
+
+
+
+
+<!-- oembed -->
+
+<!-- /oembed -->
+
+		
+        <div id="ReplyStatuszBcwPkCOJk" style="display:none;">
+            
+        </div>
+    </div>
+
+    <div class="clear-both"> &nbsp; </div>
+</div>
+
+
+            
+                
+<div class="OneMsg xfolkentry">
+    
+    <div class="MsgSide">
+        <div class="UserThumb32">
+            <a href="/user/kotoriko">
+                <img src="/user/kotoriko/profile_img.png.32.1212746583" width="32" height="32" />
+            </a>
+            
+        </div>
+    </div>
+
+    <div class="MsgBody">
+    
+        
+
+        <p class="message description">
+            <img src="/img/icn-balloon.gif" width="21" height="16" alt="" class="inlineicon" />
+
+            
+
+            
+            豆腐の上にオクラと納豆を乗せたものを食べながらビール飲んでいる!
+
+            
+
+             
+        </p>
+
+		<div class="messagefoot_container">
+        <p class="messagefoot">
+            by <a href="/user/kotoriko" class="MsgUserName">kotoriko</a>
+            at <a href="/user/kotoriko/statuses/C164nXKKUf" title="豆腐の上にオクラと納豆を乗せたものを食べながらビール飲んでいる!" class="MsgDateTime" >2008-09-19(Fri) 22:12:44</a>
+            via
+            <a href="/status/?via=web">web<img src="/img/pictogram/E716.gif" alt="web" width="16" height="16" class="viaemoji" /></a>
+			
+            
+
+            
+
+            <a href="/user/kotoriko/statuses/C164nXKKUf" title="豆腐の上にオクラと納豆を乗せたものを食べながらビール飲んでいる!" class="taggedlink" id="OneStatusC164nXKKUf">
+                レス
+            </a>
+        </p>
+        
+		</div>
+
+        
+        
+            <div class="favorite_list">
+                イイネ:
+                
+                    <a href="/user/jinon" title="jinon"><img src="/user/jinon/profile_img.png.16.1216649361" alt="" title="" width="16" height="16" /></a>
+                
+            </div>
+        
+		
+        
+
+
+
+
+
+
+
+
+
+
+
+<!-- oembed -->
+
+<!-- /oembed -->
+
+		
+        <div id="ReplyStatusC164nXKKUf" style="display:none;">
+            
+        </div>
+    </div>
+
+    <div class="clear-both"> &nbsp; </div>
+</div>
+
+
+            
+                
+<div class="OneMsg xfolkentry">
+    
+    <div class="MsgSide">
+        <div class="UserThumb32">
+            <a href="/user/kotoriko">
+                <img src="/user/kotoriko/profile_img.png.32.1212746583" width="32" height="32" />
+            </a>
+            
+        </div>
+    </div>
+
+    <div class="MsgBody">
+    
+        
+
+        <p class="message description">
+            <img src="/img/icn-balloon.gif" width="21" height="16" alt="" class="inlineicon" />
+
+            
+
+            
+            トマトとキャベツとオクラのサラダ+ビール!
+
+            
+
+             
+        </p>
+
+		<div class="messagefoot_container">
+        <p class="messagefoot">
+            by <a href="/user/kotoriko" class="MsgUserName">kotoriko</a>
+            at <a href="/user/kotoriko/statuses/yHZzDFs1ea" title="トマトとキャベツとオクラのサラダ+ビール!" class="MsgDateTime" >2008-09-16(Tue) 17:51:21</a>
+            via
+            <a href="/status/?via=web">web<img src="/img/pictogram/E716.gif" alt="web" width="16" height="16" class="viaemoji" /></a>
+			
+            
+
+            
+
+            <a href="/user/kotoriko/statuses/yHZzDFs1ea" title="トマトとキャベツとオクラのサラダ+ビール!" class="taggedlink" id="OneStatusyHZzDFs1ea">
+                レス
+            </a>
+        </p>
+        
+		</div>
+
+        
+        
+            <div class="favorite_list">
+                イイネ:
+                
+                    <a href="/user/tetsuwan" title="tetsuwan"><img src="/user/tetsuwan/profile_img.png.16.1222454552" alt="" title="" width="16" height="16" /></a>
+                
+                    <a href="/user/ishibutsu" title="ishibutsu"><img src="/user/ishibutsu/profile_img.png.16.1215045529" alt="" title="" width="16" height="16" /></a>
+                
+                    <a href="/user/shrk" title="shrk"><img src="/user/shrk/profile_img.png.16.1215614694" alt="" title="" width="16" height="16" /></a>
+                
+                    <a href="/user/stilllife" title="stilllife"><img src="/user/stilllife/profile_img.png.16.1219920445" alt="" title="" width="16" height="16" /></a>
+                
+            </div>
+        
+		
+        
+
+
+
+
+
+
+
+
+
+
+
+<!-- oembed -->
+
+<!-- /oembed -->
+
+		
+        <div id="ReplyStatusyHZzDFs1ea" style="display:none;">
+            
+        </div>
+    </div>
+
+    <div class="clear-both"> &nbsp; </div>
+</div>
+
+
+            
+            </div>
+            <!-- /Msgs -->
+            <!-- total: 20 epp: 10 cp: 1 -->
+            <!-- PageNav -->
+<div class="PageNav">
+	
+    <p>
+    
+
+    
+
+    
+	<a id="PagerNextLink" href="http://wassr.jp/user/kotoriko?page=2&amp;ajax_response=0" rel="next"><span>Next&raquo;</span></a>
+	
+    </p>
+	<div class="clear-both"> &nbsp; </div>
+	
+</div>
+<!-- /PageNav -->
+
+<script type="text/javascript">
+    Wassr.set_pager_shortcut($j('#PagerNextLink'), $j('#PagerPreviousLink'));
+</script>
+
+
+        
+
+		<!-- Ad -->
+		
+<div class="ad_adsense">
+	<script type="text/javascript"><!--
+	google_ad_client = "pub-2926286519592596";
+	/* Wassr468x60 */
+	google_ad_slot = "0704401703";
+	google_ad_width = 468;
+	google_ad_height = 60;
+	//-->
+	</script>
+	<script type="text/javascript"
+	src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+	</script>
+</div>
+
+		<!-- /Ad -->
+	</div>
+	
+
+<!-- google_ad_section_end -->
+</div>
+<div class="Main-ft"> &nbsp; </div>
+
+
+
+
+
+
+
+
+</div>
+<!-- /Main -->
+
+
+
+
+<!-- Side -->
+<div id="Side">
+	<!-- baseinfo -->
+	<div class="Side-hd"> &nbsp; </div>
+	<div class="Side-contents">
+		<div id="UserProfile">
+		<div class="UserThumb">
+			<div class="imagebox">
+				<div class="image"><a href="/user/kotoriko"><img src="/user/kotoriko/profile_img.png.128.1212746583" width="128" height="128" /></a></div>
+			</div>
+		</div>
+		<div class="UserSub">
+		
+			<p class="buttons">
+			<a href="/user/kotoriko/profile" id="btn-profile"><span>お題ちゃん*ハッピー</span></a>
+			</p>
+		
+		</div>
+		<div class="clear-both"> &nbsp; </div>
+		
+		<h1 class="username">kotoriko</h1>
+		<div id="User-URL">
+        	<p>http://wassr.jp/user/kotoriko</p>
+    	</div>
+		<div id="User-Introduction">
+        	<p>チェッシェッ!</p>
+    	</div>
+    	</div>
+		<p class="rss"><a href="http://api.wassr.jp/user_timeline.rss?id=kotoriko"><img src="/img/icn-rss.gif?d=20080423" width="35" height="16" alt="RSS" /></a></p>
+    	
+	</div>
+	<div class="Side-ft"> &nbsp; </div>
+	<!--/baseinfo -->
+
+    <div class="UserFriends"> 
+<div>
+    <div class="Side-hd" id="User-Friends-title">
+        <h2>
+            <a href="/user/kotoriko/friends" title="kotorikoさんが購読中のユーザー">kotorikoさんが購読中のユーザー
+                <span class="num">(236)</span>
+            </a>
+        </h2>
+    </div>
+
+    <div class="Side-contents" id="User-Friends">
+        <p>            <a href="/user/inoco" title="いのこ"><img src="/user/inoco/profile_img.png.32." width="32" height="32" alt="いのこ" /></a>            <a href="/user/etupirka" title="etupirka"><img src="/user/etupirka/profile_img.png.32.1221948436" width="32" height="32" alt="etupirka" /></a>            <a href="/user/hnykjb" title="hnykjb"><img src="/user/hnykjb/profile_img.png.32.1220789418" width="32" height="32" alt="hnykjb" /></a>            <a href="/user/nuryouguda" title="グダ"><img src="/user/nuryouguda/profile_img.png.32.1220377051" width="32" height="32" alt="グダ" /></a>            <a href="/user/chitose" title="ちとせ"><img src="/user/chitose/profile_img.png.32." width="32" height="32" alt="ちとせ" /></a>            <a href="/user/rinryo124" title="アシベまこと"><img src="/user/rinryo124/profile_img.png.32.1222432916" width="32" height="32" alt="アシベまこと" /></a>            <a href="/user/gensyokuneon" title="原色ネオン"><img src="/user/gensyokuneon/profile_img.png.32.1216128326" width="32" height="32" alt="原色ネオン" /></a>            <a href="/user/sidus" title="しどぅす"><img src="/user/sidus/profile_img.png.32.1220863478" width="32" height="32" alt="しどぅす" /></a>            <a href="/user/kano-e" title="kano-e"><img src="/user/kano-e/profile_img.png.32.1220924258" width="32" height="32" alt="kano-e" /></a>            <a href="/user/jossenabe" title="よせなべりん"><img src="/user/jossenabe/profile_img.png.32.1204178948" width="32" height="32" alt="よせなべりん" /></a>            <a href="/user/yurit" title="yurit"><img src="/user/yurit/profile_img.png.32.1220144504" width="32" height="32" alt="yurit" /></a>            <a href="/user/kanoe" title="kanoe:ハイフンないよ"><img src="/user/kanoe/profile_img.png.32.1216175563" width="32" height="32" alt="kanoe:ハイフンないよ" /></a>            <a href="/user/yuki411" title="yukihisa"><img src="/user/yuki411/profile_img.png.32.1219505865" width="32" height="32" alt="yukihisa" /></a>            <a href="/user/kyhrky" title="夏"><img src="/user/kyhrky/profile_img.png.32.1222423324" width="32" height="32" alt="夏" /></a>            <a href="/user/ishikur0" title="石黒"><img src="/user/ishikur0/profile_img.png.32.1218884137" width="32" height="32" alt="石黒" /></a>            <a href="/user/neet" title="Defeat"><img src="/user/neet/profile_img.png.32.1221788440" width="32" height="32" alt="Defeat" /></a>            <a href="/user/wait4ever" title="三室"><img src="/user/wait4ever/profile_img.png.32.1215435715" width="32" height="32" alt="三室" /></a>            <a href="/user/stilllife" title="Em"><img src="/user/stilllife/profile_img.png.32.1219920445" width="32" height="32" alt="Em" /></a>            <a href="/user/winkcat" title="winkcat"><img src="/user/winkcat/profile_img.png.32.1216298328" width="32" height="32" alt="winkcat" /></a>            <a href="/user/cat" title="yu-ri"><img src="/user/cat/profile_img.png.32.1217023038" width="32" height="32" alt="yu-ri" /></a>            <a href="/user/navyblue" title="navyblue"><img src="/user/navyblue/profile_img.png.32." width="32" height="32" alt="navyblue" /></a>        </p>
+<p class="more"><a href="/user/kotoriko/friends">&raquo;もっとみる</a></p>    </div>
+    <div class="Side-ft"> &nbsp; </div>
+</div>
+
+</div>
+    <div class="UserChannels">
+</div>
+</div>
+
+<!-- /Side -->
+
+
+<div class="clear-both"> &nbsp; </div>
+</div>
+<!-- /BodyWrapper -->
+
+</div>
+<!-- /PageBody -->
+
+<!-- Footer -->
+<div id="Footer">
+
+	
+	<div id="footnav">
+		
+		<ul id="footnav-home">
+		<li><a href="http://wassr.jp/">HOME</a></li>
+		<li><a href="https://wassr.jp/signup/create">新規登録</a></li>
+		
+		</ul>
+		
+		<ul>
+		<li class="title">Wassrについて</li>
+		<li><a href="http://wassr.jp/help/about.html" title="Wassrとは？">Wassrとは？</a></li>
+		<li><a href="http://wassr.jp/help/faq.html" title="FAQ">FAQ</a></li>
+		<li><a href="http://wassr.jp/help/kiyaku.html" title="利用規約">ご利用規約</a></li>
+		<li><a href="https://wassr.jp/contact/us" title="お問い合わせ">お問い合わせ</a></li>
+		</ul>
+		
+		<ul>
+		<li class="title">ヒトコトをみる</li>
+		<li><a href="http://wassr.jp/status/" title="日本中のヒトコト">日本中のヒトコト</a></li>
+		<li><a href="http://wassr.jp/status/sl_list" title="SL中のヒトコト">SL中のヒトコト</a></li>
+		<li><a href="http://wassr.jp/channel/" title="ワサチャンネル">ワサチャンネル</a></li>
+		<li><a href="http://wassr.jp/channel_message/" title="チャンネル中のヒトコト">ワサチャンネル中のヒトコト</a></li>
+		
+		</ul>
+		
+		
+		
+		<ul>
+		<li class="title">ワッサーラボ</li>
+		<li><a href="http://wassr.jp/favorite/" title="日本中のイイネ!">日本中のイイネ!</a></li>
+		<li><a href="http://wassr.jp/ranking/favorite/" title="イイネランキング">イイネランキング</a></li>
+		<li><a href="http://wassr.jp/ranking/status_update/" title="更新数ランキング">更新数ランキング</a></li>
+		<li><a href="http://wassr.jp/labs/" title="その他のラボ機能">その他のラボ機能</a></li>
+		</ul>
+		
+		<ul>
+		<li class="title">その他</li>
+		<li><a href="http://wassr.jp/user/" title="ユーザー検索">ユーザー検索</a></li>
+		
+		<li><a href="http://wassr.jp/help/api" title="API仕様書">API仕様書</a></li>
+		</ul>
+		<div class="clear-both"> &nbsp; </div>
+
+	</div>
+	
+
+	<div id="footinfo">
+		<p class="nm"><span class="noteTxt">公序良俗に反する内容や利用規約に反する投稿を発見された場合は<a href="https://wassr.jp/contact/us">お問い合わせFORM</a>からご連絡ください</span></p>
+		<ul class="FootLink">
+		<li><a href="http://www.mobilefactory.jp/privacy/index.html" title="プライバシーポリシー">プライバシーポリシー</a></li>
+		<li><a href="http://www.mobilefactory.jp/" title="運営：株式会社モバイルファクトリー">運営会社</a></li>
+		<li><a href="https://wassr.jp/contact/us" title="広告掲載等、法人様のお問合わせ">広告掲載等、法人様のお問合わせ</a></li>
+		<li class="language"><a href="http://wassr.jp/" title="Wassr日本語版へ"><img src="/img/flag-jp.gif" alt="japanese" width="22" height="14" /></a></li>
+		<li class="language"><a href="http://wassr.com/" title="Wassr英語版へ"><img src="/img/flag-en.gif" alt="english" width="22" height="14" /></a></li>
+		</ul>
+		<p class="copyright">Copyright (c) MobileFactory, Inc.</p>
+		<div class="clear-both"> &nbsp; </div>
+	</div>
+	
+</div>
+<!-- /Footer -->
+
+
+</div>
+
+
+
+
+<!-- SSL: wassr_pool -->
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-307077-12");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+
+</body>
+</html>

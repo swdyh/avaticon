@@ -1,0 +1,524 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja"><head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="Content-Style-Type" content="text/css" />
+	<meta http-equiv="Content-Script-Type" content="text/javascript" />
+	<meta name="description" content="世界開放和" />
+	<link rel="stylesheet" type="text/css" id="layout-css" href="/theme/common/css/cmn.0.7.css" />
+	<link rel="stylesheet" type="text/css" href="/theme/kitten/css/kitten.0.8.css" />
+	<link rel="alternate" type="application/rss+xml" title="世界開放和 - 記事＋ナニシテル？" href="http://yuiseki.nowa.jp/rss/?mode=rss20" />
+	<link rel="alternate" type="application/rss+xml" title="世界開放和 - ナニシテル？" href="http://yuiseki.nowa.jp/rss/?mode=rss20&amp;item=status_message" />
+	<link rel="alternate" type="application/rss+xml" title="世界開放和 - 記事" href="http://yuiseki.nowa.jp/rss/?mode=rss20&amp;item=entry" />
+	<link rel="alternate" media="handheld" type="text/html" href="http://yuiseki.m.nowa.jp/profile/" />
+	<title>世界開放和 - プロフィール</title>
+	<script type="text/javascript" src="/js/jquery/jquery-1.1.4.pack.js"></script>
+	<script type="text/javascript" src="/js/jquery/plugins/jquery.fillinMsg.js"></script>
+	<script type="text/javascript" src="/js/jquery/plugins/jquery.hotkeys.js"></script>
+	<script type="text/javascript" src="/js/jquery/plugins/jquery.ifxscrollto.js"></script>
+	<script type="text/javascript" src="/js/jquery/plugins/jquery.iutil.js"></script>
+	<script type="text/javascript" src="/js/jquery/user_blog_initialize.js"></script>
+	<link rel="home" href="/" title="世界開放和" />
+	<link rel="author" href="/profile/" title="yuiseki" />
+	<link rel="search" href="/search/" title="検索ページ" />
+	<link rel="help" href="http://nowa.jp/guide/" title="nowaとは？" />
+	<link rev="made" href="http://my.nowa.jp/message/send?other=1&amp;target_nowa_id=yuiseki" title="メッセージを送る" />
+</head>
+<body class="layout-1wlr profile">
+<div id="service-header">
+	<div id="ads-ld"><a href="http://nowa.jp/">カンタン多機能ブログ</a></div>
+</div>
+
+<div id="common-header">
+	<div class="nowa-logo"><a href="http://nowa.jp" title="ポータルトップページへのリンクです"><span><img src="/img/logo.gif" width="79" height="24" alt="nowa" /></span></a></div>
+	<div class="your-info">
+		<dl>
+			<dt><img src="/img/icon/profile/s.gif" width="16" height="16" alt="" /> ようこそ ゲスト さん</dt>
+			<dd><a href="http://my.nowa.jp/home/" title="管理画面へのリンクです">ホーム</a></dd>
+			<dd><a href="http://my.nowa.jp/login/?.next=http://yuiseki.nowa.jp/profile/" class="login">ログイン</a></dd>
+			<dd class="search-box-outer"><form action="/search/" method="get"><div class="search-box"><input type="text" name="w" size="20" value="" class="header-search" id="header-search" /></div></form></dd>
+		</dl>
+	</div>
+</div>
+
+<div id="global-header">
+	<h1><a href="http://yuiseki.nowa.jp/">世界開放和</a></h1>
+	<div class="description">世界開放和</div>
+</div>
+
+<div id="content" class="layout-1wlr">
+	<div id="container">
+
+		<div class="owner">
+			<div class="owner-info">
+				<div class="MOSe-follow"></div>
+				<dl>
+					<dt class="owner-photo"><a href="http://yuiseki.nowa.jp/profile/"><img src="http://image.nowa.jp/icon/00000011c1be13a9decc002ed6f1505814cae91870a1759-s.jpg" width="16" height="16" alt="yuiseki" /></a></dt>
+					<dd class="owner-name"><a href="http://yuiseki.nowa.jp/profile/" title="プロフィールページへのリンクです">yuiseki</a> (50)</dd>
+					<dd class="owner-comment"><span class="mood_text">いいいい</span> <span><a href="/status/" title="ナニシテル？ の一覧ページへのリンクです">一覧</a></span></dd>
+					<dd class="function">
+						<ul>
+							<li class="add-favorite"><a href="http://my.nowa.jp/friend/add_from_blog?id=810">お気に入りに追加</a></li>
+							<li class="submit-message"><a href="http://my.nowa.jp/message/send?other=1&amp;target_nowa_id=yuiseki">メッセージを送る</a></li>
+							<li class="rss"><a href="http://yuiseki.nowa.jp/rss/?mode=rss20&amp;item=entry"><img src="/theme/common/img/rss_s.gif" width="16" height="16" alt="RSS" /></a></li>
+							<li class="add-Reader"><a href="http://reader.livedoor.com/subscribe/http://yuiseki.nowa.jp/"><img src="/theme/common/img/reader.gif" width="16" height="16" alt="Readerに登録" /></a></li>
+						</ul>
+					</dd>
+				</dl>
+			</div>
+		</div>
+
+		<div id="first">
+		<div id="first-inner">
+
+			<div class="content-title"><h2>プロフィール</h2></div>
+
+			<div class="entry-outer">
+			<div class="entry">
+			<div class="entry-inner">
+
+				<div class="basic-information"><img src="http://image.nowa.jp/icon/00000011c1be13a9decc002ed6f1505814cae91870a1759-o.jpg" width="64" height="64" alt="" />
+					<h3>yuiseki</h3>
+					<dl>
+						<dt>年齢</dt>
+						<dd>23歳</dd>
+						<dt>住所</dt>
+						<dd>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+日本
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+神奈川県</dd>
+						<dt>性別</dt>
+						<dd><label for="sex_M">男性</label></dd>
+						<dt>名前</dt>
+						<dd>aoba yuiseki</dd>
+						<dt>カナ</dt>
+						<dd>アオバ ユイセキ</dd>
+					</dl>
+				</div>
+
+				<div class="self-introduction">
+					<h4>自己紹介</h4>
+					<p>武蔵工業大学　環境情報学部　学内ニート</p>
+				</div>
+
+								<div class="entry-ads"><div class="google-adsense-outer">
+									<h4 class="google-adsense-heading" title="Ads by Google">Ads by Google</h4>
+									<script type="text/javascript" src="/theme/common/js/googleadsense_entry.js"></script>
+									<script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js"></script>
+								</div></div>
+
+				<div class="question">
+					<h4>質問</h4>
+					<dl>
+
+					</dl>
+				</div>
+
+			</div>
+			</div>
+			</div>
+
+		</div>
+		</div>
+
+		<div id="second">
+		<div id="second-inner">
+			<div class="plugin-block-outer">
+			<div class="plugin-block">
+					<div class="plugin-block-inner">
+						<div class="plugin-title-outer"><h3 class="plugin-title"><span>アーカイブ</span></h3></div>
+						<div class="plugin-content-outer">
+							<ul class="archive">
+                                                                
+								<li><a href="/archive/2007/05/">2007年05月</a></li>
+                                                                
+							</ul>
+						</div>
+					</div>
+
+			</div>
+			</div>
+			<div class="plugin-block-outer">
+			<div class="plugin-block">
+						<div class="plugin-block-inner">
+							<div class="plugin-title-outer"><h3 class="plugin-title"><span>タグ</span></h3></div>
+							<div class="plugin-content-outer">
+								<ol class="tagcloud">
+                                                                        <li class="tag level1"><a href="http://yuiseki.nowa.jp/tag/いわし">いわし</a></li>
+
+								</ol>
+							</div>
+						</div>
+
+			</div>
+			</div>
+			<div class="plugin-block-outer">
+			<div class="plugin-block">
+
+						<div class="plugin-block-inner review">
+							<div class="plugin-title-outer review"><h3 class="plugin-title"><span>レビュー</span></h3></div>
+							<div class="plugin-content-outer review">
+								<dl class="review">
+								<dt><a href="http://yuiseki.nowa.jp/entry/138fb5f38e"><img src="http://ec1.images-amazon.com/images/I/21MEXWF89BL.jpg" alt="このレビューについて詳しく見る" onload="new Function('limit', '(( this.width > limit ) && ( this.height = ( Math.floor( ( this.height ) / ( this.width / limit ) ) ) ) && ( this.width = limit ) )').call(this, 140);" /></a></dt>
+								<dd><a href="http://yuiseki.nowa.jp/entry/138fb5f38e">東京名器物語</a></dd>
+								</dl>
+								<dl class="review">
+								<dt><a href="http://yuiseki.nowa.jp/entry/f2e33569b9"><img src="http://img.youtube.com/vi/JS0CxKuocsE/2.jpg" alt="このレビューについて詳しく見る" onload="new Function('limit', '(( this.width > limit ) && ( this.height = ( Math.floor( ( this.height ) / ( this.width / limit ) ) ) ) && ( this.width = limit ) )').call(this, 140);" /></a></dt>
+								<dd><a href="http://yuiseki.nowa.jp/entry/f2e33569b9">THE IDOLM@STER アイドルマスター とかちラーメン大盛り ～望みの限りに～</a></dd>
+								</dl>
+								<dl class="review">
+								<dt><a href="http://yuiseki.nowa.jp/entry/6b94c07b00"><img src="http://ec1.images-amazon.com/images/I/31ru5NhoOvL.jpg" alt="このレビューについて詳しく見る" onload="new Function('limit', '(( this.width > limit ) && ( this.height = ( Math.floor( ( this.height ) / ( this.width / limit ) ) ) ) && ( this.width = limit ) )').call(this, 140);" /></a></dt>
+								<dd><a href="http://yuiseki.nowa.jp/entry/6b94c07b00">苺ましまろ 5 (5)</a></dd>
+								</dl>
+								
+																
+
+															</div>
+						</div>
+
+
+			</div>
+			</div>
+		</div>
+		</div>
+
+		<div id="third">
+		<div id="third-inner">
+			<div class="plugin-block-outer">
+			<div class="plugin-block">
+					<div class="plugin-block-inner channel">
+						<div class="plugin-title-outer channel"><h3 class="plugin-title"><span>チャンネル</span></h3></div>
+						<div class="plugin-content-outer channel">
+							<ul class="channel">
+							
+							</ul>
+						</div>
+					</div>
+
+			</div>
+			</div>
+			<div class="plugin-block-outer">
+			<div class="plugin-block">
+			<div class="plugin-block-inner network">
+				<div class="plugin-title-outer network"><h3 class="plugin-title"><span>フレンド</span></h3></div>
+				<div class="plugin-content-outer network">
+					<dl class="network-list">
+						<dt><img src="http://image.nowa.jp/icon/0000003265e74586badc20876b3e86d9478beda85af0272-m.jpg" width="32" height="32" alt="" /></dt>
+						<dd><a href="http://dubstronica.nowa.jp/">だぶ</a>さん</dd>
+						<dt><img src="http://image.nowa.jp/icon/00000033510b75223c5ec793eec0e2b4489369cedfe6e5b-m.png" width="32" height="32" alt="" /></dt>
+						<dd><a href="http://mattn.nowa.jp/">mattn</a>さん</dd>
+						<dt><img src="http://image.nowa.jp/icon/000000292c9afd446b3df4d993afde784a9e25fb3d940e7-m.jpg" width="32" height="32" alt="" /></dt>
+						<dd><a href="http://mighty.nowa.jp/">mighty</a>さん</dd>
+						<dt><img src="http://image.nowa.jp/icon/0000003b9745724867c685cf0b04360258c77992dcb966c-m.jpg" width="32" height="32" alt="" /></dt>
+						<dd><a href="http://nagas.nowa.jp/">nagas</a>さん</dd>
+						<dt><img src="http://image.nowa.jp/icon/000000192859eff9c2336e3f425a4deb5f7118cc13a24bb-m.png" width="32" height="32" alt="" /></dt>
+						<dd><a href="http://nkoz.nowa.jp/">nkoz</a>さん</dd>
+					</dl>
+					<p class="all-network-list"><a href="http://yuiseki.nowa.jp/friend/">もっと見る</a></p>
+				</div>
+			</div>
+			</div>
+			</div>
+			<div class="plugin-block-outer">
+			<div class="plugin-block">
+				<div class="plugin-block-inner comment">
+					<div class="plugin-title-outer comment"><h3 class="plugin-title"><span>コメント</span></h3></div>
+					<div class="plugin-content-outer comment">
+						<dl class="plugin-comment">
+							<dt class="commented-entry"><a href="http://yuiseki.nowa.jp/entry/7964e81ea1">でかいもじ</a></dt>
+							<dd class="comment-body">すごくおっ････大きいです････。
+</dd>
+							<dd class="comment-author-photo"><a href="http://ot-inc.nowa.jp/"><img src="http://image.nowa.jp/icon/00000037e1f93d35fc71796e201fd3918565e2a67dc250b-m.jpg" width="32" height="32" alt="" /></a></dd>
+							<dd class="comment-author-name"><a href="http://ot-inc.nowa.jp/">おとと(ot_inc)</a>さん</dd>
+						</dl>
+						<dl class="plugin-comment">
+							<dt class="commented-entry"><a href="http://yuiseki.nowa.jp/entry/61610d09bc">ふむふむ</a></dt>
+							<dd class="comment-body">そのあたりもほんとよく考えられてるーもは</dd>
+							<dd class="comment-author-photo"><a href="http://yuiseki.nowa.jp/"><img src="http://image.nowa.jp/icon/00000011c1be13a9decc002ed6f1505814cae91870a1759-m.jpg" width="32" height="32" alt="" /></a></dd>
+							<dd class="comment-author-name"><a href="http://yuiseki.nowa.jp/">yuiseki</a>さん</dd>
+						</dl>
+						<dl class="plugin-comment">
+							<dt class="commented-entry"><a href="http://yuiseki.nowa.jp/entry/61610d09bc">ふむふむ</a></dt>
+							<dd class="comment-body">しまくったらノワエン使うので配分考えなが</dd>
+							<dd class="comment-author-photo"><a href="http://ot-inc.nowa.jp/"><img src="http://image.nowa.jp/icon/00000037e1f93d35fc71796e201fd3918565e2a67dc250b-m.jpg" width="32" height="32" alt="" /></a></dd>
+							<dd class="comment-author-name"><a href="http://ot-inc.nowa.jp/">おとと(ot_inc)</a>さん</dd>
+						</dl>
+						<dl class="plugin-comment">
+							<dt class="commented-entry"><a href="http://yuiseki.nowa.jp/entry/138fb5f38e">空前のオナホブーム</a></dt>
+							<dd class="comment-body">オナホ大人気です＞＜</dd>
+							<dd class="comment-author-photo"><a href="http://yuiseki.nowa.jp/"><img src="http://image.nowa.jp/icon/00000011c1be13a9decc002ed6f1505814cae91870a1759-m.jpg" width="32" height="32" alt="" /></a></dd>
+							<dd class="comment-author-name"><a href="http://yuiseki.nowa.jp/">yuiseki</a>さん</dd>
+						</dl>
+						<dl class="plugin-comment">
+							<dt class="commented-entry"><a href="http://yuiseki.nowa.jp/entry/138fb5f38e">空前のオナホブーム</a></dt>
+							<dd class="comment-body">うほっ･･･いい名器･･･
+TOKYOと言う90年代</dd>
+							<dd class="comment-author-photo"><a href="http://ot-inc.nowa.jp/"><img src="http://image.nowa.jp/icon/00000037e1f93d35fc71796e201fd3918565e2a67dc250b-m.jpg" width="32" height="32" alt="" /></a></dd>
+							<dd class="comment-author-name"><a href="http://ot-inc.nowa.jp/">おとと(ot_inc)</a>さん</dd>
+						</dl>
+					</div>
+				</div>
+			</div>
+			</div>
+		</div>
+		</div>
+
+		<div id="footer">
+			<dl id="footer-menu">
+				<dt><img src="/img/icon/profile/s.gif" width="16" height="16" alt="" /> ようこそ ゲスト さん</dt>
+				<dd><a href="http://my.nowa.jp/home/" title="管理画面へのリンクです">ホーム</a></dd>
+			</dl>
+		</div>
+
+	</div>
+</div>
+<div id="common-footer">
+	<div class="footer-ads"><div class="google-adsense-outer">
+		<h4 class="google-adsense-heading" title="Ads by Google">Ads by Google</h4>
+		<script type="text/javascript" src="/theme/common/js/googleadsense_footer.js"></script>
+		<script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js"></script>
+	</div></div>
+</div>
+</body>
+</html>
