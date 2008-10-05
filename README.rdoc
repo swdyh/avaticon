@@ -22,10 +22,10 @@ A library for getting web service user icon.
 
 == Synopsis
 
-    avt = Avaticon.new
+	avt = Avaticon.new
 
 	# get icon
-    icon_url = avt.get_icon 'twitter', 'swdyh'
+	icon_url = avt.get_icon 'twitter', 'swdyh'
 
 	# search by url
 	icon_url = avt.search_by_url 'http://twitter.com/swdyh'
