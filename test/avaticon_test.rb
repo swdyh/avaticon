@@ -16,30 +16,33 @@ class AvaticonTest < Test::Unit::TestCase
   end
 
   def test_siteinfo_example_url
-    Avaticon::SITEINFO.each do |s|
-      m = Regexp.new(s[:url]).match(s[:exampleUrl])
+    avt = Avaticon.new
+    avt.siteinfo.each do |s|
+      m = Regexp.new(s['url']).match(s['exampleUrl'])
       assert m
       assert_equal 2, m.to_a.size
     end
   end
 
   def test_get_icon
-    Avaticon::SITEINFO.each do |s|
-      m = Regexp.new(s[:url]).match(s[:exampleUrl])
-      service = s[:name]
+    avt = Avaticon.new
+    avt.siteinfo.each do |s|
+      m = Regexp.new(s['url']).match(s['exampleUrl'])
+      service = s['service_name']
       user_id = m.to_a[1]
       prepare_stubs service, user_id
-      icon_url = Avaticon.get_icon service, user_id
-      assert_equal s[:exampleImageUrl], icon_url
+      icon_url = avt.get_icon service, user_id
+      assert_equal s['exampleImageUrl'], icon_url
     end
   end
 
   def test_search_by_url
-    s = Avaticon::SITEINFO[0]
-    m = Regexp.new(s[:url]).match(s[:exampleUrl])
+    avt = Avaticon.new
+    s = avt.siteinfo[0]
+    m = Regexp.new(s['url']).match(s['exampleUrl'])
     user_id = m.to_a[1]
-    prepare_stubs s[:name], user_id
-    assert_equal s[:exampleImageUrl], Avaticon.search_by_url(s[:exampleUrl])
+    prepare_stubs s['service_name'], user_id
+    assert_equal s['exampleImageUrl'], avt.search_by_url(s['exampleUrl'])
   end
 end
 
