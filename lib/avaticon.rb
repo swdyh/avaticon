@@ -69,7 +69,9 @@ class Avaticon
       u.path = path
       u.to_s
     else
-      url + path
+      # url + path
+      tmp = url.split('/')
+      (tmp[0..(tmp.size - 2)] << path).join('/')
     end
   end
 end

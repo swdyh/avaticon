@@ -54,5 +54,13 @@
     "iconImageElement": "\/\/div[@class=\"identity\"]\/img",
     "exampleUrl": "http:\/\/github.com\/kzys",
     "exampleImageUrl": "http:\/\/www.gravatar.com\/avatar\/7828b45f8396aa361d85cead01fd99ca?s=50&d=http%3A%2F%2Fgithub.com%2Fimages%2Fgravatars%2Fgravatar-50.png"
+  },
+  {
+    "service_name": "turnyournameintoaface",
+    "url": "^http://turnyournameintoaface.com/\\\?name=([^.\/]+)",
+    "iconPageUrl": "http://turnyournameintoaface.com/?name={user_id}",
+    "iconImageElement": "\/\/p[@class=\"image\"]\/img",
+    "exampleUrl": "http://turnyournameintoaface.com/?name=ucnv",
+    "exampleImageUrl": "http://turnyournameintoaface.com/face/10100311.png"
   }
 ]
