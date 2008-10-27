@@ -2,16 +2,16 @@
 
 Gem::Specification.new do |s|
   s.name = %q{avaticon}
-  s.version = "0.0.2"
+  s.version = "0.0.3"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["swdyh"]
   s.autorequire = %q{}
-  s.date = %q{2008-10-06}
+  s.date = %q{2008-10-27}
   s.description = %q{A library for getting web service user icon.}
   s.email = %q{}
   s.extra_rdoc_files = ["README.rdoc", "ChangeLog"]
-  s.files = ["README.rdoc", "ChangeLog", "Rakefile", "test/avaticon_test.rb", "test/html", "test/html/flickr_kusaker", "test/html/github_kzys", "test/html/hatena_swdyh", "test/html/lastfm_youpy", "test/html/nowa_yuiseki", "test/html/twitter_swdyh", "test/html/wassr_kotoriko", "test/test_helper.rb", "lib/avaticon.rb", "lib/siteinfo.json"]
+  s.files = ["README.rdoc", "ChangeLog", "Rakefile", "test/avaticon_test.rb", "test/html", "test/html/flickr_kusaker", "test/html/github_kzys", "test/html/hatena_swdyh", "test/html/lastfm_youpy", "test/html/nowa_yuiseki", "test/html/turnyournameintoaface_ucnv", "test/html/twitter_swdyh", "test/html/wassr_kotoriko", "test/test_helper.rb", "lib/avaticon.rb", "lib/siteinfo.json"]
   s.has_rdoc = true
   s.homepage = %q{http://avaticon.rubyforge.org}
   s.rdoc_options = ["--title", "avaticon documentation", "--charset", "utf-8", "--opname", "index.html", "--line-numbers", "--main", "README.rdoc", "--inline-source", "--exclude", "^(examples|extras)/"]
