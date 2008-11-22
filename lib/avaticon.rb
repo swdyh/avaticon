@@ -1,6 +1,6 @@
 require 'open-uri'
 require 'rubygems'
-require 'hpricot'
+require 'nokogiri'
 require 'json'
 
 class Avaticon
@@ -39,7 +39,7 @@ class Avaticon
     info = @siteinfo.find { |i| i['service_name'] == service }
     if info
       url = info['iconPageUrl'].gsub('{user_id}', user_id)
-      icon = Hpricot(open(url)).at(info['iconImageElement'])
+      icon = Nokogiri::HTML(open(url)).at(info['iconImageElement'])
       if icon
         Avaticon.path2url url, icon['src']
       end
