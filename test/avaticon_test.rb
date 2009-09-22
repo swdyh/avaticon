@@ -11,7 +11,7 @@ class AvaticonTest < Test::Unit::TestCase
   def prepare_stubs service, user_id
     unless REMOTE_TEST
       path = File.join(MOCK_HTML_DIR, [service, user_id].join('_'))
-      OpenURI.stubs(:open_uri).returns(IO.read(path))
+      Avaticon.stubs(:get_html).returns(IO.read(path))
     end
   end
 

@@ -10,6 +10,8 @@ class Avaticon
 
   def initialize opt = {}
     @siteinfo = []
+    @tw_id = opt[:tw_id]
+    @tw_pw = opt[:tw_pw]
     (opt[:siteinfo_path] || DEFAULT_SITEINFO_PATH).each do |i|
       load_siteinfo i
     end
@@ -39,7 +41,8 @@ class Avaticon
     info = @siteinfo.find { |i| i['service_name'] == service }
     if info
       url = info['iconPageUrl'].gsub('{user_id}', user_id)
-      icon = Nokogiri::HTML(open(url)).at(info['iconImageElement'])
+      html = Avaticon.get_html(url, :tw_id => @tw_id, :tw_pw => @tw_pw)
+      icon = Nokogiri::HTML(html).at(info['iconImageElement'])
       if icon
         Avaticon.path2url url, icon['src']
       end
@@ -73,6 +76,28 @@ class Avaticon
       tmp = url.split('/')
       (tmp[0..(tmp.size - 2)] << path).join('/')
     end
+  end
+
+  def self.get_html url, opt = {}
+    if /twitter.com/ === url
+      Avaticon.get_tw_html url, opt
+    else
+      open(url).read
+    end
+  end
+
+  def self.get_tw_html url, opt = {}
+    require 'mechanize'
+    agent = WWW::Mechanize.new
+    agent.user_agent_alias = 'Mac Safari'
+    page = agent.get'http://twitter.com/login'
+    login_form = page.forms.find { |i|
+      i.action == 'https://twitter.com/sessions'
+    }
+    login_form.fields.find { |i| i.name == 'session[username_or_email]'}.value = opt[:tw_id]
+    login_form.fields.find { |i| i.name == 'session[password]'}.value = opt[:tw_pw]
+    login_form.submit
+    agent.get(url).body
   end
 end
 
