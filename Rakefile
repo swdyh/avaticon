@@ -17,14 +17,13 @@ DESCRIPTION       = "A library for getting web service user icon."
 RUBYFORGE_PROJECT = "avaticon"
 HOMEPATH          = "http://#{RUBYFORGE_PROJECT}.rubyforge.org"
 BIN_FILES         = %w(  )
-VERS              = "0.0.4"
+VERS              = "0.0.5"
 
 REV = File.read(".svn/entries")[/committed-rev="(d+)"/, 1] rescue nil
 CLEAN.include ['**/.*.sw?', '*.gem', '.config']
 RDOC_OPTS = [
 	'--title', "#{NAME} documentation",
 	"--charset", "utf-8",
-	"--opname", "index.html",
 	"--line-numbers",
 	"--main", "README.rdoc",
 	"--inline-source",
