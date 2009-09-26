@@ -79,11 +79,12 @@ class Avaticon
   end
 
   def self.get_html url, opt = {}
-    if /twitter.com/ === url
-      Avaticon.get_tw_html url, opt
-    else
-      open(url).read
-    end
+    open(url).read
+#     if /twitter.com/ === url
+#       Avaticon.get_tw_html url, opt
+#     else
+#       open(url).read
+#     end
   end
 
   def self.get_tw_html url, opt = {}
