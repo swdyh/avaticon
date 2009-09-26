@@ -2,12 +2,12 @@
 
 Gem::Specification.new do |s|
   s.name = %q{avaticon}
-  s.version = "0.0.5"
+  s.version = "0.0.6"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["swdyh"]
   s.autorequire = %q{}
-  s.date = %q{2009-09-22}
+  s.date = %q{2009-09-26}
   s.description = %q{A library for getting web service user icon.}
   s.email = %q{}
   s.extra_rdoc_files = ["README.rdoc", "ChangeLog"]
