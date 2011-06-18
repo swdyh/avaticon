@@ -1,5 +1,6 @@
-require File.dirname(__FILE__) + '/test_helper.rb'
+$LOAD_PATH.push '.' unless $LOAD_PATH.include? '.'
 
+require File.dirname(__FILE__) + '/test_helper.rb'
 require "test/unit"
 require 'mocha'
 
