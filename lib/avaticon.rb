@@ -12,7 +12,7 @@ class Avaticon
     @siteinfo = []
     @tw_id = opt[:tw_id]
     @tw_pw = opt[:tw_pw]
-    (opt[:siteinfo_path] || DEFAULT_SITEINFO_PATH).each do |i|
+    (opt[:siteinfo_path] || DEFAULT_SITEINFO_PATH).split(/\n/).each do |i|
       load_siteinfo i
     end
   end
